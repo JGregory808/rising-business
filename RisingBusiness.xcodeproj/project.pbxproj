@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B443C961BE83FCB00BE8D87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B443C951BE83FCB00BE8D87 /* AppDelegate.swift */; };
+		3B443C981BE83FCB00BE8D87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B443C971BE83FCB00BE8D87 /* ViewController.swift */; };
+		3B443C9B1BE83FCB00BE8D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B443C991BE83FCB00BE8D87 /* Main.storyboard */; };
+		3B443C9E1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B443C9C1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodeld */; };
+		3B443CA01BE83FCB00BE8D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B443C9F1BE83FCB00BE8D87 /* Assets.xcassets */; };
+		3B443CA31BE83FCB00BE8D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B443CA11BE83FCB00BE8D87 /* LaunchScreen.storyboard */; };
+		3B443CAE1BE83FCB00BE8D87 /* RisingBusinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B443CAD1BE83FCB00BE8D87 /* RisingBusinessTests.swift */; };
+		3B443CB91BE83FCB00BE8D87 /* RisingBusinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B443CB81BE83FCB00BE8D87 /* RisingBusinessUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B443CAA1BE83FCB00BE8D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B443C8A1BE83FCB00BE8D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B443C911BE83FCB00BE8D87;
+			remoteInfo = RisingBusiness;
+		};
+		3B443CB51BE83FCB00BE8D87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B443C8A1BE83FCB00BE8D87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B443C911BE83FCB00BE8D87;
+			remoteInfo = RisingBusiness;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B443C921BE83FCB00BE8D87 /* RisingBusiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RisingBusiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B443C951BE83FCB00BE8D87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B443C971BE83FCB00BE8D87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B443C9A1BE83FCB00BE8D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B443C9D1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RisingBusiness.xcdatamodel; sourceTree = "<group>"; };
+		3B443C9F1BE83FCB00BE8D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B443CA21BE83FCB00BE8D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B443CA41BE83FCB00BE8D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B443CA91BE83FCB00BE8D87 /* RisingBusinessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RisingBusinessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B443CAD1BE83FCB00BE8D87 /* RisingBusinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisingBusinessTests.swift; sourceTree = "<group>"; };
+		3B443CAF1BE83FCB00BE8D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B443CB41BE83FCB00BE8D87 /* RisingBusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RisingBusinessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B443CB81BE83FCB00BE8D87 /* RisingBusinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisingBusinessUITests.swift; sourceTree = "<group>"; };
+		3B443CBA1BE83FCB00BE8D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B443C8F1BE83FCB00BE8D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B443CA61BE83FCB00BE8D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B443CB11BE83FCB00BE8D87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B443C891BE83FCB00BE8D87 = {
+			isa = PBXGroup;
+			children = (
+				3B443C941BE83FCB00BE8D87 /* RisingBusiness */,
+				3B443CAC1BE83FCB00BE8D87 /* RisingBusinessTests */,
+				3B443CB71BE83FCB00BE8D87 /* RisingBusinessUITests */,
+				3B443C931BE83FCB00BE8D87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B443C931BE83FCB00BE8D87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B443C921BE83FCB00BE8D87 /* RisingBusiness.app */,
+				3B443CA91BE83FCB00BE8D87 /* RisingBusinessTests.xctest */,
+				3B443CB41BE83FCB00BE8D87 /* RisingBusinessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B443C941BE83FCB00BE8D87 /* RisingBusiness */ = {
+			isa = PBXGroup;
+			children = (
+				3B443C951BE83FCB00BE8D87 /* AppDelegate.swift */,
+				3B443C971BE83FCB00BE8D87 /* ViewController.swift */,
+				3B443C991BE83FCB00BE8D87 /* Main.storyboard */,
+				3B443C9F1BE83FCB00BE8D87 /* Assets.xcassets */,
+				3B443CA11BE83FCB00BE8D87 /* LaunchScreen.storyboard */,
+				3B443CA41BE83FCB00BE8D87 /* Info.plist */,
+				3B443C9C1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodeld */,
+			);
+			path = RisingBusiness;
+			sourceTree = "<group>";
+		};
+		3B443CAC1BE83FCB00BE8D87 /* RisingBusinessTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B443CAD1BE83FCB00BE8D87 /* RisingBusinessTests.swift */,
+				3B443CAF1BE83FCB00BE8D87 /* Info.plist */,
+			);
+			path = RisingBusinessTests;
+			sourceTree = "<group>";
+		};
+		3B443CB71BE83FCB00BE8D87 /* RisingBusinessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B443CB81BE83FCB00BE8D87 /* RisingBusinessUITests.swift */,
+				3B443CBA1BE83FCB00BE8D87 /* Info.plist */,
+			);
+			path = RisingBusinessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B443C911BE83FCB00BE8D87 /* RisingBusiness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B443CBD1BE83FCB00BE8D87 /* Build configuration list for PBXNativeTarget "RisingBusiness" */;
+			buildPhases = (
+				3B443C8E1BE83FCB00BE8D87 /* Sources */,
+				3B443C8F1BE83FCB00BE8D87 /* Frameworks */,
+				3B443C901BE83FCB00BE8D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RisingBusiness;
+			productName = RisingBusiness;
+			productReference = 3B443C921BE83FCB00BE8D87 /* RisingBusiness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B443CA81BE83FCB00BE8D87 /* RisingBusinessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B443CC01BE83FCB00BE8D87 /* Build configuration list for PBXNativeTarget "RisingBusinessTests" */;
+			buildPhases = (
+				3B443CA51BE83FCB00BE8D87 /* Sources */,
+				3B443CA61BE83FCB00BE8D87 /* Frameworks */,
+				3B443CA71BE83FCB00BE8D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B443CAB1BE83FCB00BE8D87 /* PBXTargetDependency */,
+			);
+			name = RisingBusinessTests;
+			productName = RisingBusinessTests;
+			productReference = 3B443CA91BE83FCB00BE8D87 /* RisingBusinessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B443CB31BE83FCB00BE8D87 /* RisingBusinessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B443CC31BE83FCB00BE8D87 /* Build configuration list for PBXNativeTarget "RisingBusinessUITests" */;
+			buildPhases = (
+				3B443CB01BE83FCB00BE8D87 /* Sources */,
+				3B443CB11BE83FCB00BE8D87 /* Frameworks */,
+				3B443CB21BE83FCB00BE8D87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B443CB61BE83FCB00BE8D87 /* PBXTargetDependency */,
+			);
+			name = RisingBusinessUITests;
+			productName = RisingBusinessUITests;
+			productReference = 3B443CB41BE83FCB00BE8D87 /* RisingBusinessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B443C8A1BE83FCB00BE8D87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GAI;
+				TargetAttributes = {
+					3B443C911BE83FCB00BE8D87 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3B443CA81BE83FCB00BE8D87 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3B443C911BE83FCB00BE8D87;
+					};
+					3B443CB31BE83FCB00BE8D87 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3B443C911BE83FCB00BE8D87;
+					};
+				};
+			};
+			buildConfigurationList = 3B443C8D1BE83FCB00BE8D87 /* Build configuration list for PBXProject "RisingBusiness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B443C891BE83FCB00BE8D87;
+			productRefGroup = 3B443C931BE83FCB00BE8D87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B443C911BE83FCB00BE8D87 /* RisingBusiness */,
+				3B443CA81BE83FCB00BE8D87 /* RisingBusinessTests */,
+				3B443CB31BE83FCB00BE8D87 /* RisingBusinessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B443C901BE83FCB00BE8D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B443CA31BE83FCB00BE8D87 /* LaunchScreen.storyboard in Resources */,
+				3B443CA01BE83FCB00BE8D87 /* Assets.xcassets in Resources */,
+				3B443C9B1BE83FCB00BE8D87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B443CA71BE83FCB00BE8D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B443CB21BE83FCB00BE8D87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B443C8E1BE83FCB00BE8D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B443C981BE83FCB00BE8D87 /* ViewController.swift in Sources */,
+				3B443C9E1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodeld in Sources */,
+				3B443C961BE83FCB00BE8D87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B443CA51BE83FCB00BE8D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B443CAE1BE83FCB00BE8D87 /* RisingBusinessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B443CB01BE83FCB00BE8D87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B443CB91BE83FCB00BE8D87 /* RisingBusinessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B443CAB1BE83FCB00BE8D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B443C911BE83FCB00BE8D87 /* RisingBusiness */;
+			targetProxy = 3B443CAA1BE83FCB00BE8D87 /* PBXContainerItemProxy */;
+		};
+		3B443CB61BE83FCB00BE8D87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B443C911BE83FCB00BE8D87 /* RisingBusiness */;
+			targetProxy = 3B443CB51BE83FCB00BE8D87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B443C991BE83FCB00BE8D87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B443C9A1BE83FCB00BE8D87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B443CA11BE83FCB00BE8D87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B443CA21BE83FCB00BE8D87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B443CBB1BE83FCB00BE8D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B443CBC1BE83FCB00BE8D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B443CBE1BE83FCB00BE8D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RisingBusiness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B443CBF1BE83FCB00BE8D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RisingBusiness/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusiness;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B443CC11BE83FCB00BE8D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RisingBusinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RisingBusiness.app/RisingBusiness";
+			};
+			name = Debug;
+		};
+		3B443CC21BE83FCB00BE8D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RisingBusinessTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusinessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RisingBusiness.app/RisingBusiness";
+			};
+			name = Release;
+		};
+		3B443CC41BE83FCB00BE8D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RisingBusinessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusinessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RisingBusiness;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3B443CC51BE83FCB00BE8D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RisingBusinessUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusinessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RisingBusiness;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B443C8D1BE83FCB00BE8D87 /* Build configuration list for PBXProject "RisingBusiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B443CBB1BE83FCB00BE8D87 /* Debug */,
+				3B443CBC1BE83FCB00BE8D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B443CBD1BE83FCB00BE8D87 /* Build configuration list for PBXNativeTarget "RisingBusiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B443CBE1BE83FCB00BE8D87 /* Debug */,
+				3B443CBF1BE83FCB00BE8D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B443CC01BE83FCB00BE8D87 /* Build configuration list for PBXNativeTarget "RisingBusinessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B443CC11BE83FCB00BE8D87 /* Debug */,
+				3B443CC21BE83FCB00BE8D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B443CC31BE83FCB00BE8D87 /* Build configuration list for PBXNativeTarget "RisingBusinessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B443CC41BE83FCB00BE8D87 /* Debug */,
+				3B443CC51BE83FCB00BE8D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B443C9C1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B443C9D1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodel */,
+			);
+			currentVersion = 3B443C9D1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodel */;
+			path = RisingBusiness.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B443C8A1BE83FCB00BE8D87 /* Project object */;
+}
