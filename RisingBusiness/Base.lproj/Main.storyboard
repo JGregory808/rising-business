@@ -25,9 +25,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0r-VM-ob6">
-                                <rect key="frame" x="114" y="253" width="71" height="30"/>
+                                <rect key="frame" x="221" y="251" width="38" height="30"/>
                                 <animations/>
-                                <state key="normal" title="krisButton"/>
+                                <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="yxF-KW-k9e" kind="show" id="Gcz-CK-Swa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -36,7 +39,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-122" y="355"/>
+            <point key="canvasLocation" x="-96" y="355"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="gkX-jV-bBd">
