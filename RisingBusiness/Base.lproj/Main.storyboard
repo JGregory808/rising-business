@@ -169,6 +169,24 @@
             <point key="canvasLocation" x="1466" y="1147"/>
         </scene>
         <!--About Us-->
+        <scene sceneID="hLh-Rc-o8W">
+            <objects>
+                <navigationController id="Tth-Ca-kpW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About Us" id="k71-wP-OmI"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vw1-y4-Gug">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="P5D-nh-0rW" kind="relationship" relationship="rootViewController" id="F8F-tK-fWc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zxC-HR-Cuh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="355"/>
+        </scene>
+        <!--About Us-->
         <scene sceneID="06V-Tj-ee7">
             <objects>
                 <viewController id="P5D-nh-0rW" customClass="AboutUs" customModule="RisingBusiness" customModuleProvider="target" sceneMemberID="viewController">
@@ -181,16 +199,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lj4-Cp-sP6">
-                                <rect key="frame" x="139" y="20" width="322" height="515"/>
+                                <rect key="frame" x="139" y="72" width="322" height="515"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. 
-
-Our goal at RBE is to connect with students, by hosting workshops or small-group sessions, and explain, in depth, the various aspects of business – Marketing, Finance, Accounting, Operations, &amp; Entrepreneurship. 
-
-We often see that high school seniors simply decide to choose business because it seems interesting and can be applied to many different paths -- however they do not know what those paths are. By partnering with us, students will gain insight into the day-to-day work, both in college and in the corporate world; something that is currently not being taught in high schools. 
-
-Registered 501(c)3 Non-Profit in the Commonwealth of Massachusetts as of 11/12/13.</mutableString>
+                                <mutableString key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. Our goal at RBE is to connect with students, by hosting workshops or small-group sessions, and explain, in depth, the various aspects of business – Marketing, Finance, Accounting, Operations, &amp; Entrepreneurship. We often see that high school seniors simply decide to choose business because it seems interesting and can be applied to many different paths -- however they do not know what those paths are. By partnering with us, students will gain insight into the day-to-day work, both in college and in the corporate world; something that is currently not being taught in high schools. </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -198,17 +210,19 @@ Registered 501(c)3 Non-Profit in the Commonwealth of Massachusetts as of 11/12/1
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="lj4-Cp-sP6" firstAttribute="centerX" secondItem="OdC-KF-zLw" secondAttribute="centerX" id="ih1-Ok-dTW"/>
+                            <constraint firstItem="lj4-Cp-sP6" firstAttribute="top" secondItem="ppi-gn-bOL" secondAttribute="bottom" constant="8" id="bxL-B3-QoU"/>
+                            <constraint firstItem="lj4-Cp-sP6" firstAttribute="centerX" secondItem="OdC-KF-zLw" secondAttribute="centerX" id="w47-7u-R2j"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About Us" id="Efd-fH-bxK"/>
+                    <navigationItem key="navigationItem" title="About Us" id="3PC-4P-BY1"/>
                     <connections>
                         <outlet property="AboutUsText" destination="lj4-Cp-sP6" id="xSs-Ee-JHA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5kl-2E-kOR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1466" y="355"/>
+            <point key="canvasLocation" x="2092" y="355"/>
         </scene>
         <!--Reference-->
         <scene sceneID="MGm-nV-mrJ">
@@ -241,9 +255,9 @@ Registered 501(c)3 Non-Profit in the Commonwealth of Massachusetts as of 11/12/1
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="P5D-nh-0rW" kind="relationship" relationship="viewControllers" id="rOs-uT-QNL"/>
                         <segue destination="TdW-Uf-mnv" kind="relationship" relationship="viewControllers" id="3OO-2X-zFl"/>
                         <segue destination="VHU-nl-6tO" kind="relationship" relationship="viewControllers" id="vmR-hy-uKR"/>
+                        <segue destination="Tth-Ca-kpW" kind="relationship" relationship="viewControllers" id="uv7-KZ-xtF"/>
                         <segue destination="Tbd-sd-OQo" kind="relationship" relationship="viewControllers" id="cPa-wJ-tbO"/>
                     </connections>
                 </tabBarController>
