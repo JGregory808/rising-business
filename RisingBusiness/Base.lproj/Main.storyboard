@@ -171,7 +171,7 @@
         <!--About Us-->
         <scene sceneID="06V-Tj-ee7">
             <objects>
-                <viewController id="P5D-nh-0rW" sceneMemberID="viewController">
+                <viewController id="P5D-nh-0rW" customClass="AboutUs" customModule="RisingBusiness" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ppi-gn-bOL"/>
                         <viewControllerLayoutGuide type="bottom" id="iCn-W7-HyW"/>
@@ -179,10 +179,32 @@
                     <view key="view" contentMode="scaleToFill" id="OdC-KF-zLw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lj4-Cp-sP6">
+                                <rect key="frame" x="139" y="20" width="322" height="515"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. 
+
+Our goal at RBE is to connect with students, by hosting workshops or small-group sessions, and explain, in depth, the various aspects of business – Marketing, Finance, Accounting, Operations, &amp; Entrepreneurship. 
+
+We often see that high school seniors simply decide to choose business because it seems interesting and can be applied to many different paths -- however they do not know what those paths are. By partnering with us, students will gain insight into the day-to-day work, both in college and in the corporate world; something that is currently not being taught in high schools. 
+
+Registered 501(c)3 Non-Profit in the Commonwealth of Massachusetts as of 11/12/13.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lj4-Cp-sP6" firstAttribute="centerX" secondItem="OdC-KF-zLw" secondAttribute="centerX" id="ih1-Ok-dTW"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About Us" id="Efd-fH-bxK"/>
+                    <connections>
+                        <outlet property="AboutUsText" destination="lj4-Cp-sP6" id="xSs-Ee-JHA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5kl-2E-kOR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
