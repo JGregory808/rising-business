@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxF-KW-k9e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxF-KW-k9e">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Login to MyRBI-->
@@ -19,14 +19,12 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hVP-Fb-Idw">
                                 <rect key="frame" x="327" y="82" width="0.0" height="0.0"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0r-VM-ob6">
                                 <rect key="frame" x="207" y="452" width="186" height="30"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="186" id="DXs-52-Op2"/>
@@ -45,7 +43,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FA-WQ-v90">
                                 <rect key="frame" x="207" y="490" width="186" height="30"/>
-                                <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="186" id="kaM-T5-Q9K"/>
@@ -61,32 +58,27 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Enter your email and password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUX-LJ-uvm">
                                 <rect key="frame" x="183" y="90" width="235" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="OR create an account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fC-ZU-Gfn">
                                 <rect key="frame" x="217" y="119" width="166" height="21"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aYp-Wg-ktN">
                                 <rect key="frame" x="207" y="148" width="186" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pPq-YK-w91">
                                 <rect key="frame" x="207" y="186" width="186" height="30"/>
-                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="C0r-VM-ob6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0PP-kp-9qH"/>
@@ -118,7 +110,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ehg-S2-8Cl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="i70-19-YBB"/>
@@ -139,7 +130,6 @@
                     <view key="view" contentMode="scaleToFill" id="Zp6-tV-Crm">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="a2N-eb-bVO"/>
@@ -159,7 +149,6 @@
                     <view key="view" contentMode="scaleToFill" id="X1W-7k-k9e">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Meet the Team" id="DXG-De-MeD"/>
@@ -176,7 +165,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vw1-y4-Gug">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="P5D-nh-0rW" kind="relationship" relationship="rootViewController" id="F8F-tK-fWc"/>
@@ -200,14 +188,17 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lj4-Cp-sP6">
                                 <rect key="frame" x="139" y="72" width="322" height="515"/>
-                                <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. Our goal at RBE is to connect with students, by hosting workshops or small-group sessions, and explain, in depth, the various aspects of business – Marketing, Finance, Accounting, Operations, &amp; Entrepreneurship. We often see that high school seniors simply decide to choose business because it seems interesting and can be applied to many different paths -- however they do not know what those paths are. By partnering with us, students will gain insight into the day-to-day work, both in college and in the corporate world; something that is currently not being taught in high schools. </mutableString>
+                                <string key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. 
+
+Our goal at RBE is to connect with students, by hosting workshops or small-group sessions, and explain, in depth, the various aspects of business – Marketing, Finance, Accounting, Operations, &amp; Entrepreneurship. 
+
+We often see that high school seniors simply decide to choose business because it seems interesting and can be applied to many different paths -- however they do not know what those paths are. By partnering with us, students will gain insight into the day-to-day work, both in college and in the corporate world; something that is currently not being taught in high schools. 
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="lj4-Cp-sP6" firstAttribute="top" secondItem="ppi-gn-bOL" secondAttribute="bottom" constant="8" id="bxL-B3-QoU"/>
@@ -235,7 +226,6 @@
                     <view key="view" contentMode="scaleToFill" id="XVO-kR-8uU">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Reference" id="1Gf-31-4Vv"/>
@@ -251,7 +241,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="2uW-zJ-9Mb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
