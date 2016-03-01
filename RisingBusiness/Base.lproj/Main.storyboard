@@ -127,6 +127,29 @@
                     <view key="view" contentMode="scaleToFill" id="X1W-7k-k9e">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="v8Z-Gw-2Ai">
+                                <rect key="frame" x="9" y="20" width="500" height="133"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Melanie Ramirez is a sophomore Questrom School of Business, concentrating in Marketing and Organizational Behavior. She is pursuing a minor in Education within the School of Education. She grew up in Queens, New York.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2bB-BS-Pv3">
+                                <rect key="frame" x="9" y="125" width="531" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Chris McNew is a Senior in the Questrom School of Business Honors Program. He is pursuing a concentration in finance with a minor in Economics at the College of Arts and Sciences. At BU, Chris serves on the executive board of the Finance &amp; Investment Club and is also a finance teaching assistant. Chris enjoys hiking, drawing, and running in his downtime. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PQE-hl-Nmz">
+                                <rect key="frame" x="5" y="277" width="591" height="217"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">David Elgawly is a Junior in the Questrom School of Business and Kilachand Honors College. He is pursuing a dual concentration in Finance and Management Information Systems. At BU, David is a member of the Finance &amp; Investment Club and a Resident Assistant for the Business School Specialty Brownstone. In his spare time, David enjoys powerlifting and strength training. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Meet the Team" id="DXG-De-MeD"/>
