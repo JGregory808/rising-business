@@ -37,9 +37,6 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="0wR-up-Hcn" kind="show" id="Lv7-Dg-l7g"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FA-WQ-v90">
                                 <rect key="frame" x="207" y="490" width="186" height="30"/>
@@ -118,25 +115,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VeG-VG-hws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="608" y="1211"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="f7w-Xm-Qdf">
-            <objects>
-                <viewController id="0wR-up-Hcn" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="she-ig-6hD"/>
-                        <viewControllerLayoutGuide type="bottom" id="4jW-B2-1Bd"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Zp6-tV-Crm">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="a2N-eb-bVO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZgZ-T8-YQK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1466" y="1955"/>
         </scene>
         <!--Meet the Team-->
         <scene sceneID="gkX-jV-bBd">
