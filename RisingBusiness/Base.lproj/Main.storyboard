@@ -5,11 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
-        <!--My Account-->
+        <!--NewsFeed-->
         <scene sceneID="vbG-0X-bcR">
             <objects>
                 <navigationController id="Tbd-sd-OQo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="My Account" id="tdN-cT-JPc"/>
+                    <tabBarItem key="tabBarItem" title="NewsFeed" id="tdN-cT-JPc"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ehg-S2-8Cl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
