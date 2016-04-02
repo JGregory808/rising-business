@@ -20,7 +20,7 @@
             </objects>
             <point key="canvasLocation" x="608" y="1211"/>
         </scene>
-        <!--Meet the Team-->
+        <!--View Controller-->
         <scene sceneID="gkX-jV-bBd">
             <objects>
                 <viewController id="TdW-Uf-mnv" sceneMemberID="viewController">
@@ -33,34 +33,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jf-tx-jgc">
-                                <rect key="frame" x="20" y="259" width="560" height="97"/>
+                                <rect key="frame" x="20" y="299" width="560" height="97"/>
                                 <state key="normal" title="Melanie Ramirez"/>
                                 <connections>
-                                    <segue destination="1nF-qb-s0I" kind="show" identifier="MelanieRamirez" id="Xim-uZ-QTN"/>
+                                    <segue destination="fds-0w-j4M" kind="show" id="AF7-CR-JNg"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank Woman" translatesAutoresizingMaskIntoConstraints="NO" id="I2K-L6-ZI1">
+                                <rect key="frame" x="20" y="299" width="102" height="97"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JC2-Pc-4Kn">
-                                <rect key="frame" x="20" y="154" width="560" height="97"/>
+                                <rect key="frame" x="20" y="194" width="560" height="97"/>
                                 <state key="normal" title="David Elgawly"/>
                                 <connections>
-                                    <segue destination="IbJ-io-pVd" kind="show" identifier="DavidElgawly" id="lAI-a1-MGT"/>
+                                    <segue destination="7Qb-nK-MHW" kind="show" id="pCt-1u-LF3"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="David Elgawly" translatesAutoresizingMaskIntoConstraints="NO" id="Xhh-s7-9yq">
-                                <rect key="frame" x="20" y="154" width="102" height="97"/>
+                                <rect key="frame" x="20" y="194" width="102" height="97"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5g-Y9-0Kx">
-                                <rect key="frame" x="20" y="49" width="560" height="97"/>
+                                <rect key="frame" x="20" y="89" width="560" height="97"/>
                                 <state key="normal" title="Chris McNew"/>
                                 <connections>
-                                    <segue destination="4tJ-QE-th8" kind="show" identifier="ChrisMcNew" id="dSE-os-LVu"/>
+                                    <segue destination="fwj-gp-lSY" kind="show" id="Rxq-wQ-Iod"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris McNew" translatesAutoresizingMaskIntoConstraints="NO" id="POn-lP-PFi">
-                                <rect key="frame" x="20" y="49" width="102" height="97"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank Woman" translatesAutoresizingMaskIntoConstraints="NO" id="I2K-L6-ZI1">
-                                <rect key="frame" x="20" y="259" width="102" height="97"/>
+                                <rect key="frame" x="20" y="89" width="102" height="97"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -70,11 +70,11 @@
                             <constraint firstItem="5jf-tx-jgc" firstAttribute="centerX" secondItem="X1W-7k-k9e" secondAttribute="centerX" id="w9M-eu-afM"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Meet the Team" image="Meet The Team" id="DXG-De-MeD"/>
+                    <navigationItem key="navigationItem" id="nLd-fy-96h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mKB-yU-A21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1562" y="1203"/>
+            <point key="canvasLocation" x="2374" y="1203"/>
         </scene>
         <!--Melanie Ramirez-->
         <scene sceneID="RiC-VQ-abp">
@@ -116,7 +116,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m32-cZ-Z8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3104" y="1071"/>
+            <point key="canvasLocation" x="3916" y="1071"/>
         </scene>
         <!--Chris McNew-->
         <scene sceneID="jgH-72-wGw">
@@ -156,9 +156,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="Uok-Ax-n9k">
-                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="Xss-wt-ro9"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Uok-Ax-n9k"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M87-72-ee0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -294,7 +292,7 @@ We often see that high school seniors simply decide to choose business because i
                     </tabBar>
                     <connections>
                         <segue destination="Tth-Ca-kpW" kind="relationship" relationship="viewControllers" id="uv7-KZ-xtF"/>
-                        <segue destination="TdW-Uf-mnv" kind="relationship" relationship="viewControllers" id="3OO-2X-zFl"/>
+                        <segue destination="z1i-ro-zxF" kind="relationship" relationship="viewControllers" id="3OO-2X-zFl"/>
                         <segue destination="VHU-nl-6tO" kind="relationship" relationship="viewControllers" id="vmR-hy-uKR"/>
                         <segue destination="Tbd-sd-OQo" kind="relationship" relationship="viewControllers" id="cPa-wJ-tbO"/>
                     </connections>
@@ -303,59 +301,24 @@ We often see that high school seniors simply decide to choose business because i
             </objects>
             <point key="canvasLocation" x="608" y="355"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ti0-TN-447">
+        <!--Meet the Team-->
+        <scene sceneID="tiG-91-mQq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1nF-qb-s0I" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z1i-ro-zxF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Meet the Team" image="Meet The Team" id="DXG-De-MeD"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZId-1A-Lol">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4ul-rj-nfG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="fds-0w-j4M" kind="relationship" relationship="rootViewController" id="trU-yh-oP1"/>
+                        <segue destination="TdW-Uf-mnv" kind="relationship" relationship="rootViewController" id="Ka3-Qn-qy1"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a5c-Pk-jd8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a8P-Qa-SjF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2292" y="1071"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="yeF-jk-ypg">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4tJ-QE-th8" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="66E-m0-V8z">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="fwj-gp-lSY" kind="relationship" relationship="rootViewController" id="Lgh-rN-IVJ"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BBB-WU-omC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3176" y="1991"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="q8D-4X-UFO">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IbJ-io-pVd" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yQe-gQ-L0h">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="7Qb-nK-MHW" kind="relationship" relationship="rootViewController" id="hkF-wJ-Cse"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EX3-Hb-4CM" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4798" y="1999"/>
+            <point key="canvasLocation" x="1562" y="1203"/>
         </scene>
     </scenes>
     <resources>
