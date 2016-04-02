@@ -3,13 +3,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--NewsFeed-->
         <scene sceneID="vbG-0X-bcR">
             <objects>
                 <navigationController id="Tbd-sd-OQo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="NewsFeed" id="tdN-cT-JPc"/>
+                    <tabBarItem key="tabBarItem" title="NewsFeed" image="NewsFeed" id="tdN-cT-JPc"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ehg-S2-8Cl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -31,37 +32,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="v8Z-Gw-2Ai">
-                                <rect key="frame" x="9" y="20" width="500" height="133"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2bB-BS-Pv3">
-                                <rect key="frame" x="9" y="125" width="531" height="200"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PQE-hl-Nmz">
-                                <rect key="frame" x="5" y="277" width="591" height="217"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jf-tx-jgc">
+                                <rect key="frame" x="20" y="259" width="560" height="97"/>
+                                <state key="normal" title="Melanie Ramirez"/>
+                                <connections>
+                                    <segue destination="1nF-qb-s0I" kind="show" identifier="MelanieRamirez" id="Xim-uZ-QTN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JC2-Pc-4Kn">
+                                <rect key="frame" x="20" y="154" width="560" height="97"/>
+                                <state key="normal" title="David Elgawly"/>
+                                <connections>
+                                    <segue destination="IbJ-io-pVd" kind="show" identifier="DavidElgawly" id="lAI-a1-MGT"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="David Elgawly" translatesAutoresizingMaskIntoConstraints="NO" id="Xhh-s7-9yq">
+                                <rect key="frame" x="20" y="154" width="102" height="97"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5g-Y9-0Kx">
+                                <rect key="frame" x="20" y="49" width="560" height="97"/>
+                                <state key="normal" title="Chris McNew"/>
+                                <connections>
+                                    <segue destination="4tJ-QE-th8" kind="show" identifier="ChrisMcNew" id="dSE-os-LVu"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris McNew" translatesAutoresizingMaskIntoConstraints="NO" id="POn-lP-PFi">
+                                <rect key="frame" x="20" y="49" width="102" height="97"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank Woman" translatesAutoresizingMaskIntoConstraints="NO" id="I2K-L6-ZI1">
+                                <rect key="frame" x="20" y="259" width="102" height="97"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JC2-Pc-4Kn" firstAttribute="centerX" secondItem="X1W-7k-k9e" secondAttribute="centerX" id="8ma-Ar-sAA"/>
+                            <constraint firstItem="A5g-Y9-0Kx" firstAttribute="centerX" secondItem="X1W-7k-k9e" secondAttribute="centerX" id="I5C-Jf-PiZ"/>
+                            <constraint firstItem="5jf-tx-jgc" firstAttribute="centerX" secondItem="X1W-7k-k9e" secondAttribute="centerX" id="w9M-eu-afM"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Meet the Team" id="DXG-De-MeD"/>
+                    <tabBarItem key="tabBarItem" title="Meet the Team" image="Meet The Team" id="DXG-De-MeD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mKB-yU-A21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1562" y="1203"/>
         </scene>
-        <!--View Controller-->
+        <!--Melanie Ramirez-->
         <scene sceneID="RiC-VQ-abp">
             <objects>
-                <viewController id="fds-0w-j4M" sceneMemberID="viewController">
+                <viewController id="fds-0w-j4M" userLabel="Melanie Ramirez" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="r8g-7h-XiU"/>
                         <viewControllerLayoutGuide type="bottom" id="WEc-BN-Mf4"/>
@@ -70,8 +88,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BMW-b3-aud">
-                                <rect key="frame" x="41" y="87" width="459" height="184"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BMW-b3-aud">
+                                <rect key="frame" x="71" y="72" width="459" height="184"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Melanie Ramirez is a Sophomore in the Questrom School of Business, concentrating in Marketing and Organizational Behavior. She is pursuing a minor in Education within the School of Education. She grew up in Queens, New York.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -79,16 +97,31 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BMW-b3-aud" firstAttribute="centerY" secondItem="B9D-L9-QZf" secondAttribute="centerY" id="0kv-i3-ts4"/>
+                            <constraint firstItem="BMW-b3-aud" firstAttribute="centerX" secondItem="B9D-L9-QZf" secondAttribute="centerX" id="8Qz-41-MNv"/>
+                            <constraint firstItem="WEc-BN-Mf4" firstAttribute="top" secondItem="BMW-b3-aud" secondAttribute="bottom" constant="280" id="SA2-oo-33i"/>
+                            <constraint firstItem="BMW-b3-aud" firstAttribute="top" secondItem="r8g-7h-XiU" secondAttribute="bottom" constant="23" id="VOV-yS-9Zl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BMW-b3-aud" secondAttribute="trailing" constant="80" id="hF0-1Y-BNw"/>
+                            <constraint firstItem="BMW-b3-aud" firstAttribute="leading" secondItem="B9D-L9-QZf" secondAttribute="leadingMargin" constant="21" id="hYr-Lf-VCo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0kv-i3-ts4"/>
+                                <exclude reference="8Qz-41-MNv"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="U2A-l2-6xg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m32-cZ-Z8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2292" y="1071"/>
+            <point key="canvasLocation" x="3104" y="1071"/>
         </scene>
-        <!--View Controller-->
+        <!--Chris McNew-->
         <scene sceneID="jgH-72-wGw">
             <objects>
-                <viewController id="fwj-gp-lSY" sceneMemberID="viewController">
+                <viewController id="fwj-gp-lSY" userLabel="Chris McNew" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2NW-lu-kti"/>
                         <viewControllerLayoutGuide type="bottom" id="FFc-VN-XMk"/>
@@ -97,7 +130,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aya-iD-VH0">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aya-iD-VH0">
                                 <rect key="frame" x="20" y="57" width="560" height="339"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Chris McNew is a Senior in the Questrom School of Business Honors Program. He is pursuing a concentration in finance with a minor in Economics at the College of Arts and Sciences. At BU, Chris serves on the executive board of the Finance &amp; Investment Club and is also a finance teaching assistant. Chris enjoys hiking, drawing, and running in his downtime.</string>
@@ -106,16 +139,35 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aya-iD-VH0" firstAttribute="centerX" secondItem="wtL-9c-uFg" secondAttribute="centerX" id="0Lc-z1-CiL"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="aya-iD-VH0" secondAttribute="leading" id="f7P-PY-F8F"/>
+                            <constraint firstItem="aya-iD-VH0" firstAttribute="top" secondItem="wtL-9c-uFg" secondAttribute="topMargin" constant="8" id="h85-MQ-PX4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aya-iD-VH0" secondAttribute="trailing" id="jWq-h9-IXM"/>
+                            <constraint firstItem="aya-iD-VH0" firstAttribute="top" secondItem="2NW-lu-kti" secondAttribute="bottom" constant="-7" id="kJD-1I-Bvz"/>
+                            <constraint firstItem="aya-iD-VH0" firstAttribute="top" secondItem="wtL-9c-uFg" secondAttribute="topMargin" constant="8" id="ski-Yp-oy3"/>
+                            <constraint firstItem="FFc-VN-XMk" firstAttribute="top" secondItem="aya-iD-VH0" secondAttribute="bottom" constant="155" id="tGM-hN-dhk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="0Lc-z1-CiL"/>
+                                <exclude reference="h85-MQ-PX4"/>
+                                <exclude reference="ski-Yp-oy3"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="Uok-Ax-n9k">
+                        <barButtonItem key="leftBarButtonItem" systemItem="done" id="Xss-wt-ro9"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M87-72-ee0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1552" y="1991"/>
+            <point key="canvasLocation" x="3988" y="1991"/>
         </scene>
-        <!--View Controller-->
+        <!--David Elgawly-->
         <scene sceneID="OiG-vW-tO3">
             <objects>
-                <viewController id="7Qb-nK-MHW" sceneMemberID="viewController">
+                <viewController id="7Qb-nK-MHW" userLabel="David Elgawly" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="WrX-Wu-Cru"/>
                         <viewControllerLayoutGuide type="bottom" id="WY7-gn-j9o"/>
@@ -124,7 +176,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hgO-xa-WcY">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hgO-xa-WcY">
                                 <rect key="frame" x="30" y="20" width="544" height="313"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">David Elgawly is a Junior in the Questrom School of Business and Kilachand Honors College. He is pursuing a dual concentration in Finance and Management Information Systems. At BU, David is a member of the Finance &amp; Investment Club and a Resident Assistant for the Business School Specialty Brownstone. In his spare time, David enjoys powerlifting and strength training. </string>
@@ -133,17 +185,32 @@
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WY7-gn-j9o" firstAttribute="top" secondItem="hgO-xa-WcY" secondAttribute="bottom" constant="218" id="De6-O8-0Nf"/>
+                            <constraint firstItem="hgO-xa-WcY" firstAttribute="top" secondItem="WrX-Wu-Cru" secondAttribute="bottom" constant="-44" id="Epd-Ox-hQL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hgO-xa-WcY" secondAttribute="trailing" constant="6" id="IT2-jT-htG"/>
+                            <constraint firstItem="hgO-xa-WcY" firstAttribute="leading" secondItem="Yk3-TM-70e" secondAttribute="leadingMargin" constant="10" id="SsI-Mb-aKa"/>
+                            <constraint firstItem="hgO-xa-WcY" firstAttribute="centerY" secondItem="Yk3-TM-70e" secondAttribute="centerY" id="aMz-Yx-k2o"/>
+                            <constraint firstItem="hgO-xa-WcY" firstAttribute="centerX" secondItem="Yk3-TM-70e" secondAttribute="centerX" id="ev4-0j-1RT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="aMz-Yx-k2o"/>
+                                <exclude reference="ev4-0j-1RT"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="xfj-sQ-DM3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m4I-ia-vcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2362" y="1999"/>
+            <point key="canvasLocation" x="5610" y="1999"/>
         </scene>
         <!--About Us-->
         <scene sceneID="hLh-Rc-o8W">
             <objects>
                 <navigationController id="Tth-Ca-kpW" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About Us" id="k71-wP-OmI"/>
+                    <tabBarItem key="tabBarItem" title="About Us" image="About Us" selectedImage="About Us" id="k71-wP-OmI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vw1-y4-Gug">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -187,7 +254,7 @@ We often see that high school seniors simply decide to choose business because i
                             <constraint firstItem="lj4-Cp-sP6" firstAttribute="centerX" secondItem="OdC-KF-zLw" secondAttribute="centerX" id="w47-7u-R2j"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About Us" id="Efd-fH-bxK"/>
+                    <tabBarItem key="tabBarItem" title="About Us" selectedImage="About Us" id="Efd-fH-bxK"/>
                     <navigationItem key="navigationItem" title="About Us" id="3PC-4P-BY1"/>
                     <connections>
                         <outlet property="AboutUsText" destination="lj4-Cp-sP6" id="xSs-Ee-JHA"/>
@@ -210,7 +277,7 @@ We often see that high school seniors simply decide to choose business because i
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reference" id="1Gf-31-4Vv"/>
+                    <tabBarItem key="tabBarItem" title="Reference" image="References" id="1Gf-31-4Vv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gdz-3u-d6S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -236,5 +303,68 @@ We often see that high school seniors simply decide to choose business because i
             </objects>
             <point key="canvasLocation" x="608" y="355"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ti0-TN-447">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1nF-qb-s0I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZId-1A-Lol">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fds-0w-j4M" kind="relationship" relationship="rootViewController" id="trU-yh-oP1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5c-Pk-jd8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2292" y="1071"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="yeF-jk-ypg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4tJ-QE-th8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="66E-m0-V8z">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fwj-gp-lSY" kind="relationship" relationship="rootViewController" id="Lgh-rN-IVJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BBB-WU-omC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3176" y="1991"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="q8D-4X-UFO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IbJ-io-pVd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yQe-gQ-L0h">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7Qb-nK-MHW" kind="relationship" relationship="rootViewController" id="hkF-wJ-Cse"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EX3-Hb-4CM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4798" y="1999"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="About Us" width="30" height="30"/>
+        <image name="Blank Woman" width="275" height="368"/>
+        <image name="Chris McNew" width="337" height="337"/>
+        <image name="David Elgawly" width="194" height="194"/>
+        <image name="Meet The Team" width="30" height="30"/>
+        <image name="NewsFeed" width="30" height="30"/>
+        <image name="References" width="45" height="45"/>
+    </resources>
 </document>
