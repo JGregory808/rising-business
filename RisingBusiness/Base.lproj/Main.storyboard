@@ -20,7 +20,7 @@
             </objects>
             <point key="canvasLocation" x="608" y="1211"/>
         </scene>
-        <!--View Controller-->
+        <!--Meet the Team-->
         <scene sceneID="gkX-jV-bBd">
             <objects>
                 <viewController id="TdW-Uf-mnv" sceneMemberID="viewController">
@@ -70,7 +70,7 @@
                             <constraint firstItem="5jf-tx-jgc" firstAttribute="centerX" secondItem="X1W-7k-k9e" secondAttribute="centerX" id="w9M-eu-afM"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="nLd-fy-96h"/>
+                    <navigationItem key="navigationItem" title="Meet the Team" id="nLd-fy-96h"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mKB-yU-A21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,7 +112,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="U2A-l2-6xg"/>
+                    <navigationItem key="navigationItem" title="Melanie Ramirez" id="U2A-l2-6xg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m32-cZ-Z8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -156,7 +156,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="Uok-Ax-n9k"/>
+                    <navigationItem key="navigationItem" title="Chris McNew" id="Uok-Ax-n9k"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M87-72-ee0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -198,7 +198,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="xfj-sQ-DM3"/>
+                    <navigationItem key="navigationItem" title="David Elgawly" id="xfj-sQ-DM3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m4I-ia-vcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
