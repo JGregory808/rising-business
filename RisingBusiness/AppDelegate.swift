@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = UIColor(hue: 0.6, saturation: 1, brightness: 0.97, alpha: 1.0)
         
         
+        
         return true
     }
 
