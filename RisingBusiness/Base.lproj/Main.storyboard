@@ -32,22 +32,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jf-tx-jgc">
-                                <rect key="frame" x="20" y="299" width="560" height="97"/>
-                                <state key="normal" title="Melanie Ramirez"/>
-                                <connections>
-                                    <segue destination="fds-0w-j4M" kind="show" id="AF7-CR-JNg"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank Woman" translatesAutoresizingMaskIntoConstraints="NO" id="I2K-L6-ZI1">
                                 <rect key="frame" x="20" y="299" width="102" height="97"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JC2-Pc-4Kn">
                                 <rect key="frame" x="20" y="194" width="560" height="97"/>
                                 <state key="normal" title="David Elgawly"/>
-                                <connections>
-                                    <segue destination="7Qb-nK-MHW" kind="show" id="pCt-1u-LF3"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="David Elgawly" translatesAutoresizingMaskIntoConstraints="NO" id="Xhh-s7-9yq">
                                 <rect key="frame" x="20" y="194" width="102" height="97"/>
@@ -55,20 +45,21 @@
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5g-Y9-0Kx">
                                 <rect key="frame" x="20" y="89" width="560" height="97"/>
                                 <state key="normal" title="Chris McNew"/>
-                                <connections>
-                                    <segue destination="fwj-gp-lSY" kind="show" id="Rxq-wQ-Iod"/>
-                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris McNew" translatesAutoresizingMaskIntoConstraints="NO" id="POn-lP-PFi">
                                 <rect key="frame" x="20" y="89" width="102" height="97"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfP-tv-gKR">
-                                <rect key="frame" x="20" y="404" width="560" height="97"/>
+                                <rect key="frame" x="20" y="395" width="560" height="97"/>
                                 <state key="normal" title="Brent Jiang"/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brent Jiang" translatesAutoresizingMaskIntoConstraints="NO" id="zcc-pu-Ofj">
-                                <rect key="frame" x="20" y="395" width="102" height="97"/>
+                                <rect key="frame" x="20" y="404" width="102" height="97"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jf-tx-jgc">
+                                <rect key="frame" x="20" y="299" width="560" height="97"/>
+                                <state key="normal" title="Melanie Ramirez"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -81,7 +72,79 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mKB-yU-A21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2374" y="1203"/>
+            <point key="canvasLocation" x="2364" y="1211"/>
+        </scene>
+        <!--Meet The Team-->
+        <scene sceneID="dCz-o5-Xwc">
+            <objects>
+                <viewController id="N0M-aR-oST" customClass="MeetTheTeam" customModule="RisingBusiness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eIc-BC-Gae"/>
+                        <viewControllerLayoutGuide type="bottom" id="AoY-zS-mlS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ol3-Dv-ZMI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lim-6L-fby">
+                                <rect key="frame" x="0.0" y="6" width="600" height="594"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1q-uc-F8H">
+                                        <rect key="frame" x="20" y="66" width="560" height="97"/>
+                                        <state key="normal" title="Chris McNew"/>
+                                        <connections>
+                                            <segue destination="fwj-gp-lSY" kind="show" id="buu-gq-hF0"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris McNew" translatesAutoresizingMaskIntoConstraints="NO" id="vPO-ew-CNP">
+                                        <rect key="frame" x="20" y="66" width="102" height="97"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pe1-3y-fme">
+                                        <rect key="frame" x="20" y="171" width="560" height="97"/>
+                                        <state key="normal" title="David Elgawly"/>
+                                        <connections>
+                                            <segue destination="7Qb-nK-MHW" kind="show" id="hTf-2x-w0B"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="David Elgawly" translatesAutoresizingMaskIntoConstraints="NO" id="KDK-10-zp1">
+                                        <rect key="frame" x="20" y="171" width="102" height="97"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IzD-U3-n1E">
+                                        <rect key="frame" x="20" y="276" width="560" height="97"/>
+                                        <state key="normal" title="Melanie Ramirez"/>
+                                        <connections>
+                                            <segue destination="fds-0w-j4M" kind="show" id="trz-Fk-P9f"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank Woman" translatesAutoresizingMaskIntoConstraints="NO" id="DoP-m0-66b">
+                                        <rect key="frame" x="20" y="276" width="102" height="97"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-GO-VZp">
+                                        <rect key="frame" x="20" y="381" width="560" height="97"/>
+                                        <state key="normal" title="Brent Jiang"/>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brent Jiang" translatesAutoresizingMaskIntoConstraints="NO" id="xmt-z8-ZEg">
+                                        <rect key="frame" x="20" y="381" width="102" height="97"/>
+                                    </imageView>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lim-6L-fby" firstAttribute="width" secondItem="Ol3-Dv-ZMI" secondAttribute="width" id="0DT-HX-OrH"/>
+                            <constraint firstItem="Lim-6L-fby" firstAttribute="height" secondItem="Ol3-Dv-ZMI" secondAttribute="height" id="5qr-Nn-67C"/>
+                            <constraint firstItem="Lim-6L-fby" firstAttribute="centerY" secondItem="Ol3-Dv-ZMI" secondAttribute="centerY" id="7pX-6t-hWC"/>
+                            <constraint firstItem="Lim-6L-fby" firstAttribute="centerX" secondItem="Ol3-Dv-ZMI" secondAttribute="centerX" id="TSp-jA-2kX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MRC-lE-uJF"/>
+                    <connections>
+                        <outlet property="ScrollView" destination="Lim-6L-fby" id="bTH-aq-82Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kEF-Hk-nHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3154" y="2073"/>
         </scene>
         <!--Melanie Ramirez-->
         <scene sceneID="RiC-VQ-abp">
@@ -123,7 +186,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m32-cZ-Z8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3916" y="1071"/>
+            <point key="canvasLocation" x="3539" y="2835"/>
         </scene>
         <!--Chris McNew-->
         <scene sceneID="jgH-72-wGw">
@@ -167,7 +230,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M87-72-ee0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3988" y="1991"/>
+            <point key="canvasLocation" x="3900" y="2127"/>
         </scene>
         <!--David Elgawly-->
         <scene sceneID="OiG-vW-tO3">
@@ -209,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m4I-ia-vcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5610" y="1999"/>
+            <point key="canvasLocation" x="3934" y="1239"/>
         </scene>
         <!--About Us-->
         <scene sceneID="hLh-Rc-o8W">
@@ -299,9 +362,9 @@ We often see that high school seniors simply decide to choose business because i
                     </tabBar>
                     <connections>
                         <segue destination="Tth-Ca-kpW" kind="relationship" relationship="viewControllers" id="uv7-KZ-xtF"/>
-                        <segue destination="z1i-ro-zxF" kind="relationship" relationship="viewControllers" id="3OO-2X-zFl"/>
                         <segue destination="VHU-nl-6tO" kind="relationship" relationship="viewControllers" id="vmR-hy-uKR"/>
                         <segue destination="Tbd-sd-OQo" kind="relationship" relationship="viewControllers" id="cPa-wJ-tbO"/>
+                        <segue destination="eEV-Ci-sSQ" kind="relationship" relationship="viewControllers" id="5H3-dJ-iyT"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdG-Kf-ag3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -326,6 +389,25 @@ We often see that high school seniors simply decide to choose business because i
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a8P-Qa-SjF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1562" y="1203"/>
+        </scene>
+        <!--Meet The Team-->
+        <scene sceneID="Xzy-gc-gCS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="eEV-Ci-sSQ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Meet The Team" image="Meet The Team" selectedImage="Meet The Team" id="oDk-lA-PE2"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kDJ-Yq-fN3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="N0M-aR-oST" kind="relationship" relationship="rootViewController" id="1DX-CC-uCk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9mH-GT-ohG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2342" y="2073"/>
         </scene>
     </scenes>
     <resources>
