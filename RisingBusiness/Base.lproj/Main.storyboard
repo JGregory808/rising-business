@@ -20,60 +20,6 @@
             </objects>
             <point key="canvasLocation" x="608" y="1211"/>
         </scene>
-        <!--Meet the Team-->
-        <scene sceneID="gkX-jV-bBd">
-            <objects>
-                <viewController id="TdW-Uf-mnv" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="S7y-on-xc1"/>
-                        <viewControllerLayoutGuide type="bottom" id="eVM-DJ-WyT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="X1W-7k-k9e">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank Woman" translatesAutoresizingMaskIntoConstraints="NO" id="I2K-L6-ZI1">
-                                <rect key="frame" x="20" y="299" width="102" height="97"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JC2-Pc-4Kn">
-                                <rect key="frame" x="20" y="194" width="560" height="97"/>
-                                <state key="normal" title="David Elgawly"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="David Elgawly" translatesAutoresizingMaskIntoConstraints="NO" id="Xhh-s7-9yq">
-                                <rect key="frame" x="20" y="194" width="102" height="97"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5g-Y9-0Kx">
-                                <rect key="frame" x="20" y="89" width="560" height="97"/>
-                                <state key="normal" title="Chris McNew"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris McNew" translatesAutoresizingMaskIntoConstraints="NO" id="POn-lP-PFi">
-                                <rect key="frame" x="20" y="89" width="102" height="97"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfP-tv-gKR">
-                                <rect key="frame" x="20" y="395" width="560" height="97"/>
-                                <state key="normal" title="Brent Jiang"/>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brent Jiang" translatesAutoresizingMaskIntoConstraints="NO" id="zcc-pu-Ofj">
-                                <rect key="frame" x="20" y="404" width="102" height="97"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jf-tx-jgc">
-                                <rect key="frame" x="20" y="299" width="560" height="97"/>
-                                <state key="normal" title="Melanie Ramirez"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="JC2-Pc-4Kn" firstAttribute="centerX" secondItem="X1W-7k-k9e" secondAttribute="centerX" id="8ma-Ar-sAA"/>
-                            <constraint firstItem="A5g-Y9-0Kx" firstAttribute="centerX" secondItem="X1W-7k-k9e" secondAttribute="centerX" id="I5C-Jf-PiZ"/>
-                            <constraint firstItem="5jf-tx-jgc" firstAttribute="centerX" secondItem="X1W-7k-k9e" secondAttribute="centerX" id="w9M-eu-afM"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Meet the Team" id="nLd-fy-96h"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mKB-yU-A21" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2364" y="1211"/>
-        </scene>
         <!--Meet The Team-->
         <scene sceneID="dCz-o5-Xwc">
             <objects>
@@ -385,25 +331,6 @@ We often see that high school seniors simply decide to choose business because i
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdG-Kf-ag3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="608" y="355"/>
-        </scene>
-        <!--Meet the Team-->
-        <scene sceneID="tiG-91-mQq">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="z1i-ro-zxF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Meet the Team" image="Meet The Team" id="DXG-De-MeD"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4ul-rj-nfG">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="TdW-Uf-mnv" kind="relationship" relationship="rootViewController" id="Ka3-Qn-qy1"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a8P-Qa-SjF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1562" y="1203"/>
         </scene>
         <!--Meet The Team-->
         <scene sceneID="Xzy-gc-gCS">
