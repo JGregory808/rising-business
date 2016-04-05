@@ -10,12 +10,15 @@ import UIKit
 
 class AboutUs: UIViewController, UITextFieldDelegate {
     
-    @IBOutlet weak var AboutUsText: UITextView!
+    @IBOutlet var ScrollView: UIScrollView!
+    //@IBOutlet weak var AboutUsTextBox: UITextView!
     
         override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.AboutUsText.userInteractionEnabled = false
+        //self.AboutUsTextBox.userInteractionEnabled = false
+            
+            ScrollView.contentSize.height = 1000
     }
     
     override func didReceiveMemoryWarning() {
