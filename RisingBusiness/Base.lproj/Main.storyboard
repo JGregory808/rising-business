@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxF-KW-k9e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxF-KW-k9e">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -89,7 +89,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lim-6L-fby">
                                 <rect key="frame" x="0.0" y="6" width="600" height="594"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1q-uc-F8H">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1q-uc-F8H">
                                         <rect key="frame" x="20" y="66" width="560" height="97"/>
                                         <state key="normal" title="Chris McNew"/>
                                         <connections>
@@ -99,7 +99,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chris McNew" translatesAutoresizingMaskIntoConstraints="NO" id="vPO-ew-CNP">
                                         <rect key="frame" x="20" y="66" width="102" height="97"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pe1-3y-fme">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pe1-3y-fme">
                                         <rect key="frame" x="20" y="171" width="560" height="97"/>
                                         <state key="normal" title="David Elgawly"/>
                                         <connections>
@@ -109,7 +109,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="David Elgawly" translatesAutoresizingMaskIntoConstraints="NO" id="KDK-10-zp1">
                                         <rect key="frame" x="20" y="171" width="102" height="97"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IzD-U3-n1E">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IzD-U3-n1E">
                                         <rect key="frame" x="20" y="276" width="560" height="97"/>
                                         <state key="normal" title="Melanie Ramirez"/>
                                         <connections>
@@ -119,7 +119,7 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank Woman" translatesAutoresizingMaskIntoConstraints="NO" id="DoP-m0-66b">
                                         <rect key="frame" x="20" y="276" width="102" height="97"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-GO-VZp">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-GO-VZp">
                                         <rect key="frame" x="20" y="381" width="560" height="97"/>
                                         <state key="normal" title="Brent Jiang"/>
                                     </button>
@@ -127,6 +127,12 @@
                                         <rect key="frame" x="20" y="381" width="102" height="97"/>
                                     </imageView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="0jf-GO-VZp" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="Kir-WL-iNv"/>
+                                    <constraint firstItem="k1q-uc-F8H" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="SVM-Ev-fhE"/>
+                                    <constraint firstItem="IzD-U3-n1E" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="fYz-2p-XaY"/>
+                                    <constraint firstItem="pe1-3y-fme" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="wxe-DO-0rJ"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -309,12 +315,12 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-qZ-K2G">
                                         <rect key="frame" x="139" y="243" width="322" height="515"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <mutableString key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. 
+                                        <string key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. 
 
 Our goal at RBE is to connect with students, by hosting workshops or small-group sessions, and explain, in depth, the various aspects of business – Marketing, Finance, Accounting, Operations, &amp; Entrepreneurship. 
 
 We often see that high school seniors simply decide to choose business because it seems interesting and can be applied to many different paths -- however they do not know what those paths are. By partnering with us, students will gain insight into the day-to-day work, both in college and in the corporate world; something that is currently not being taught in high schools. 
-</mutableString>
+</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
