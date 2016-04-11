@@ -75,6 +75,13 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brent Jiang" translatesAutoresizingMaskIntoConstraints="NO" id="xmt-z8-ZEg">
                                         <rect key="frame" x="20" y="381" width="102" height="97"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtV-8a-r7y">
+                                        <rect key="frame" x="20" y="479" width="560" height="97"/>
+                                        <state key="normal" title="Kahizer Baig"/>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kahizer Baig" translatesAutoresizingMaskIntoConstraints="NO" id="yB6-rl-pJc">
+                                        <rect key="frame" x="20" y="486" width="102" height="97"/>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="0jf-GO-VZp" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="Kir-WL-iNv"/>
@@ -99,7 +106,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kEF-Hk-nHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3154" y="2073"/>
+            <point key="canvasLocation" x="3090" y="2137"/>
         </scene>
         <!--Melanie Ramirez-->
         <scene sceneID="RiC-VQ-abp">
@@ -141,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m32-cZ-Z8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3539" y="2835"/>
+            <point key="canvasLocation" x="3569" y="3435"/>
         </scene>
         <!--Chris McNew-->
         <scene sceneID="jgH-72-wGw">
@@ -261,7 +268,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnf-vq-HXu">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-qZ-K2G">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-qZ-K2G">
                                         <rect key="frame" x="139" y="243" width="322" height="515"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. 
@@ -274,6 +281,10 @@ We often see that high school seniors simply decide to choose business because i
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="jh6-qZ-K2G" firstAttribute="centerY" secondItem="cnf-vq-HXu" secondAttribute="centerY" id="K72-sD-CKu"/>
+                                    <constraint firstItem="jh6-qZ-K2G" firstAttribute="centerX" secondItem="cnf-vq-HXu" secondAttribute="centerX" id="iCH-db-A1c"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -370,7 +381,7 @@ We often see that high school seniors simply decide to choose business because i
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h8f-2h-3QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2804" y="2867"/>
+            <point key="canvasLocation" x="2806" y="3421"/>
         </scene>
     </scenes>
     <resources>
@@ -379,6 +390,7 @@ We often see that high school seniors simply decide to choose business because i
         <image name="Brent Jiang" width="300" height="300"/>
         <image name="Chris McNew" width="337" height="337"/>
         <image name="David Elgawly" width="194" height="194"/>
+        <image name="Kahizer Baig" width="301" height="301"/>
         <image name="Meet The Team" width="30" height="30"/>
         <image name="NewsFeed" width="30" height="30"/>
         <image name="References" width="45" height="45"/>
