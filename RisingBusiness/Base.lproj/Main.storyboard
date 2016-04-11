@@ -68,6 +68,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-GO-VZp">
                                         <rect key="frame" x="20" y="381" width="560" height="97"/>
                                         <state key="normal" title="Brent Jiang"/>
+                                        <connections>
+                                            <segue destination="dKQ-c4-ooV" kind="show" id="Oxq-b3-jYh"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brent Jiang" translatesAutoresizingMaskIntoConstraints="NO" id="xmt-z8-ZEg">
                                         <rect key="frame" x="20" y="381" width="102" height="97"/>
@@ -350,6 +353,24 @@ We often see that high school seniors simply decide to choose business because i
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9mH-GT-ohG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2342" y="2073"/>
+        </scene>
+        <!--Brent Jiang-->
+        <scene sceneID="kM2-ye-lzB">
+            <objects>
+                <viewController id="dKQ-c4-ooV" userLabel="Brent Jiang" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vuR-TB-Wuu"/>
+                        <viewControllerLayoutGuide type="bottom" id="pMm-gg-UKk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="76w-Gi-ZTj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8f-2h-3QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2804" y="2867"/>
         </scene>
     </scenes>
     <resources>
