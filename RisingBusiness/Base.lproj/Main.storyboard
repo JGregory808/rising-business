@@ -75,9 +75,12 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brent Jiang" translatesAutoresizingMaskIntoConstraints="NO" id="xmt-z8-ZEg">
                                         <rect key="frame" x="20" y="381" width="102" height="97"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtV-8a-r7y">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtV-8a-r7y">
                                         <rect key="frame" x="20" y="479" width="560" height="97"/>
                                         <state key="normal" title="Kahizer Baig"/>
+                                        <connections>
+                                            <segue destination="0fO-oX-7js" kind="show" id="iRj-9U-Anp"/>
+                                        </connections>
                                     </button>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kahizer Baig" translatesAutoresizingMaskIntoConstraints="NO" id="yB6-rl-pJc">
                                         <rect key="frame" x="20" y="486" width="102" height="97"/>
@@ -87,6 +90,7 @@
                                     <constraint firstItem="0jf-GO-VZp" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="Kir-WL-iNv"/>
                                     <constraint firstItem="k1q-uc-F8H" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="SVM-Ev-fhE"/>
                                     <constraint firstItem="IzD-U3-n1E" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="fYz-2p-XaY"/>
+                                    <constraint firstItem="FtV-8a-r7y" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="hzW-R1-Tzk"/>
                                     <constraint firstItem="pe1-3y-fme" firstAttribute="centerX" secondItem="Lim-6L-fby" secondAttribute="centerX" id="wxe-DO-0rJ"/>
                                 </constraints>
                             </scrollView>
@@ -365,6 +369,24 @@ We often see that high school seniors simply decide to choose business because i
             </objects>
             <point key="canvasLocation" x="2342" y="2073"/>
         </scene>
+        <!--Kahizer Baig-->
+        <scene sceneID="jH8-61-vl4">
+            <objects>
+                <viewController id="0fO-oX-7js" userLabel="Kahizer Baig" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uBv-8U-FY2"/>
+                        <viewControllerLayoutGuide type="bottom" id="1My-qT-hnb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GVX-Z7-iAV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YF1-fj-hWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2294" y="2883"/>
+        </scene>
         <!--Brent Jiang-->
         <scene sceneID="kM2-ye-lzB">
             <objects>
@@ -381,7 +403,7 @@ We often see that high school seniors simply decide to choose business because i
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h8f-2h-3QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2806" y="3421"/>
+            <point key="canvasLocation" x="2956" y="3151"/>
         </scene>
     </scenes>
     <resources>
