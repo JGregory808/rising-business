@@ -15,10 +15,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="7KB-Ic-vNo" kind="relationship" relationship="rootViewController" id="c49-AR-JAm"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VeG-VG-hws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="608" y="1211"/>
+            <point key="canvasLocation" x="562" y="1249"/>
+        </scene>
+        <!--NewsFeed-->
+        <scene sceneID="jPi-rG-HiU">
+            <objects>
+                <viewController id="7KB-Ic-vNo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QEZ-Mb-CCF"/>
+                        <viewControllerLayoutGuide type="bottom" id="5hG-zR-O5R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SwY-P2-W2N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="NewsFeed" id="Gwp-0E-2VR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SdD-Zt-UYL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1158" y="2023"/>
         </scene>
         <!--Meet The Team-->
         <scene sceneID="dCz-o5-Xwc">
@@ -62,7 +84,7 @@
                                             <segue destination="fds-0w-j4M" kind="show" id="trz-Fk-P9f"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Blank Woman" translatesAutoresizingMaskIntoConstraints="NO" id="DoP-m0-66b">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Melanie Ramirez" translatesAutoresizingMaskIntoConstraints="NO" id="DoP-m0-66b">
                                         <rect key="frame" x="20" y="276" width="102" height="97"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-GO-VZp">
@@ -103,7 +125,7 @@
                             <constraint firstItem="Lim-6L-fby" firstAttribute="centerX" secondItem="Ol3-Dv-ZMI" secondAttribute="centerX" id="TSp-jA-2kX"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="MRC-lE-uJF"/>
+                    <navigationItem key="navigationItem" title="Meet The Team" id="MRC-lE-uJF" userLabel="Meet The Team"/>
                     <connections>
                         <outlet property="ScrollView" destination="Lim-6L-fby" id="bTH-aq-82Z"/>
                     </connections>
@@ -272,7 +294,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnf-vq-HXu">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-qZ-K2G">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-qZ-K2G">
                                         <rect key="frame" x="139" y="243" width="322" height="515"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. 
@@ -284,6 +306,10 @@ We often see that high school seniors simply decide to choose business because i
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLu-Mb-6iQ">
+                                        <rect key="frame" x="248" y="91" width="105" height="30"/>
+                                        <state key="normal" title="Email Us!"/>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="jh6-qZ-K2G" firstAttribute="centerY" secondItem="cnf-vq-HXu" secondAttribute="centerY" id="K72-sD-CKu"/>
@@ -311,7 +337,7 @@ We often see that high school seniors simply decide to choose business because i
             </objects>
             <point key="canvasLocation" x="2092" y="355"/>
         </scene>
-        <!--Reference-->
+        <!--References-->
         <scene sceneID="MGm-nV-mrJ">
             <objects>
                 <viewController id="VHU-nl-6tO" sceneMemberID="viewController">
@@ -324,11 +350,11 @@ We often see that high school seniors simply decide to choose business because i
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reference" image="References" id="1Gf-31-4Vv"/>
+                    <navigationItem key="navigationItem" title="References" id="eYK-Tl-DMJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gdz-3u-d6S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="608" y="-392"/>
+            <point key="canvasLocation" x="1546" y="-616"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="f0L-3q-cJl">
@@ -341,7 +367,7 @@ We often see that high school seniors simply decide to choose business because i
                     </tabBar>
                     <connections>
                         <segue destination="Tth-Ca-kpW" kind="relationship" relationship="viewControllers" id="uv7-KZ-xtF"/>
-                        <segue destination="VHU-nl-6tO" kind="relationship" relationship="viewControllers" id="vmR-hy-uKR"/>
+                        <segue destination="gMY-bU-DM9" kind="relationship" relationship="viewControllers" id="vmR-hy-uKR"/>
                         <segue destination="Tbd-sd-OQo" kind="relationship" relationship="viewControllers" id="cPa-wJ-tbO"/>
                         <segue destination="eEV-Ci-sSQ" kind="relationship" relationship="viewControllers" id="5H3-dJ-iyT"/>
                     </connections>
@@ -382,6 +408,7 @@ We often see that high school seniors simply decide to choose business because i
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Kahizer Baig" id="jH6-3J-RKA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YF1-fj-hWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -400,20 +427,40 @@ We often see that high school seniors simply decide to choose business because i
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Brent Jiang" id="ylV-gM-y3I"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h8f-2h-3QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2956" y="3151"/>
         </scene>
+        <!--Reference-->
+        <scene sceneID="GoP-Pr-CKC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gMY-bU-DM9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Reference" image="References" id="1Gf-31-4Vv"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fpX-vO-tJZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VHU-nl-6tO" kind="relationship" relationship="rootViewController" id="WUg-9h-3WA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ek3-9S-cAQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="-606"/>
+        </scene>
     </scenes>
     <resources>
         <image name="About Us" width="30" height="30"/>
-        <image name="Blank Woman" width="275" height="368"/>
         <image name="Brent Jiang" width="300" height="300"/>
         <image name="Chris McNew" width="337" height="337"/>
         <image name="David Elgawly" width="194" height="194"/>
         <image name="Kahizer Baig" width="301" height="301"/>
         <image name="Meet The Team" width="30" height="30"/>
+        <image name="Melanie Ramirez" width="253" height="253"/>
         <image name="NewsFeed" width="30" height="30"/>
         <image name="References" width="45" height="45"/>
     </resources>
