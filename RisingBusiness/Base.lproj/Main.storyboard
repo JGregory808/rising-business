@@ -306,13 +306,14 @@ We often see that high school seniors simply decide to choose business because i
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLu-Mb-6iQ">
-                                        <rect key="frame" x="248" y="91" width="105" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLu-Mb-6iQ">
+                                        <rect key="frame" x="248" y="79" width="105" height="30"/>
                                         <state key="normal" title="Email Us!"/>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="jh6-qZ-K2G" firstAttribute="centerY" secondItem="cnf-vq-HXu" secondAttribute="centerY" id="K72-sD-CKu"/>
+                                    <constraint firstItem="cLu-Mb-6iQ" firstAttribute="centerX" secondItem="cnf-vq-HXu" secondAttribute="centerX" id="fcv-Ly-G3e"/>
                                     <constraint firstItem="jh6-qZ-K2G" firstAttribute="centerX" secondItem="cnf-vq-HXu" secondAttribute="centerX" id="iCH-db-A1c"/>
                                 </constraints>
                             </scrollView>
