@@ -132,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kEF-Hk-nHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3090" y="2137"/>
+            <point key="canvasLocation" x="3023" y="2151"/>
         </scene>
         <!--Melanie Ramirez-->
         <scene sceneID="RiC-VQ-abp">
@@ -309,6 +309,9 @@ We often see that high school seniors simply decide to choose business because i
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLu-Mb-6iQ">
                                         <rect key="frame" x="248" y="79" width="105" height="30"/>
                                         <state key="normal" title="Email Us!"/>
+                                        <connections>
+                                            <action selector="EmailUs:" destination="P5D-nh-0rW" eventType="touchUpInside" id="k0Q-Ic-tQm"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -336,7 +339,7 @@ We often see that high school seniors simply decide to choose business because i
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5kl-2E-kOR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2092" y="355"/>
+            <point key="canvasLocation" x="2068" y="731"/>
         </scene>
         <!--References-->
         <scene sceneID="MGm-nV-mrJ">
@@ -427,7 +430,7 @@ We often see that high school seniors simply decide to choose business because i
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aak-b9-eFs">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aak-b9-eFs">
                                 <rect key="frame" x="90" y="138" width="420" height="306"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Brent Jiang is a Junior in the Questrom School of Business concentrating in Finance and Management Information Systems (MIS), and is also pursuing a minor in Economics in the College of Arts and Sciences. Brent currently has a prospective summer internships with Goldman Sachs in their Private Wealth Management division, and hopes to continue this career path after graduation. In his spare time, Brent enjoys playing tennis, playing the piano, and exploring Boston with his friends.</string>
@@ -437,7 +440,6 @@ We often see that high school seniors simply decide to choose business because i
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="pMm-gg-UKk" firstAttribute="top" secondItem="aak-b9-eFs" secondAttribute="bottom" constant="107" id="RxP-zp-HBR"/>
                             <constraint firstItem="aak-b9-eFs" firstAttribute="top" secondItem="vuR-TB-Wuu" secondAttribute="bottom" constant="74" id="UDO-Hc-bmd"/>
                             <constraint firstItem="aak-b9-eFs" firstAttribute="leading" secondItem="76w-Gi-ZTj" secondAttribute="leadingMargin" constant="70" id="g8a-Yg-sOP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aak-b9-eFs" secondAttribute="trailing" constant="70" id="itf-kE-Lyc"/>
