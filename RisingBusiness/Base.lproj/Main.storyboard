@@ -426,7 +426,22 @@ We often see that high school seniors simply decide to choose business because i
                     <view key="view" contentMode="scaleToFill" id="76w-Gi-ZTj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aak-b9-eFs">
+                                <rect key="frame" x="90" y="138" width="420" height="306"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Brent Jiang is a Junior in the Questrom School of Business concentrating in Finance and Management Information Systems (MIS), and is also pursuing a minor in Economics in the College of Arts and Sciences. Brent currently has a prospective summer internships with Goldman Sachs in their Private Wealth Management division, and hopes to continue this career path after graduation. In his spare time, Brent enjoys playing tennis, playing the piano, and exploring Boston with his friends.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pMm-gg-UKk" firstAttribute="top" secondItem="aak-b9-eFs" secondAttribute="bottom" constant="107" id="RxP-zp-HBR"/>
+                            <constraint firstItem="aak-b9-eFs" firstAttribute="top" secondItem="vuR-TB-Wuu" secondAttribute="bottom" constant="74" id="UDO-Hc-bmd"/>
+                            <constraint firstItem="aak-b9-eFs" firstAttribute="leading" secondItem="76w-Gi-ZTj" secondAttribute="leadingMargin" constant="70" id="g8a-Yg-sOP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aak-b9-eFs" secondAttribute="trailing" constant="70" id="itf-kE-Lyc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Brent Jiang" id="ylV-gM-y3I"/>
                 </viewController>
