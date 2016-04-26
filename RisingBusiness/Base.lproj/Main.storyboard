@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxF-KW-k9e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxF-KW-k9e">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -216,7 +216,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lfT-Bd-x7H">
                                 <rect key="frame" x="20" y="72" width="560" height="752"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Why did you choose business?
+                                <string key="text">Why did you choose business?
 
 Growing up I was able to watch my father build his business from the ground up. I love interacting with people, creating something new, and watching different components fall into place which is what I found so attractive about business school.
 
@@ -242,7 +242,7 @@ I love lifting at the gym. It’s very empowering and it’s a new hobby of mine
 
 Why your minor and how will you relate the two skills?
 
-I am currently an education minor. Education is something I really care about because it has the power to make incredible change in the world. I always wanted to be a teacher growing up, but I quickly realized that it wasn’t my calling. Despite this I never lost my passion for it. I’ve loved learning about education policy and all of the behind the scenes of schooling. There are so many business concepts behind education and schools run very similarly to a business. I hope to be working in the nonprofit sector or on the administrative side of education.</mutableString>
+I am currently an education minor. Education is something I really care about because it has the power to make incredible change in the world. I always wanted to be a teacher growing up, but I quickly realized that it wasn’t my calling. Despite this I never lost my passion for it. I’ve loved learning about education policy and all of the behind the scenes of schooling. There are so many business concepts behind education and schools run very similarly to a business. I hope to be working in the nonprofit sector or on the administrative side of education.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -334,7 +334,7 @@ I am currently an education minor. Education is something I really care about be
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LKp-Hb-SuW">
                                 <rect key="frame" x="20" y="72" width="560" height="785"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Why did you choose business?
+                                <string key="text">Why did you choose business?
 
 I wanted exposure to something new and dynamic. I was immersed in theory and abstract ideas throughout high school, and while I enjoyed what I learned, I knew I wanted to be involved in something applied and connected to the real world. I also knew that business was becoming increasingly global, and I figured it would be the clearest path to a career that could take me around the world or even allow me to work in a foreign country.
 
@@ -358,7 +358,7 @@ In Boston, I really enjoy running on the Charles River Esplanade as well as spen
 
 Why your minor and how will you relate the two skills?
 
-I have a minor in economics, where much of the material actually serves as major assumptions in the world of finance. Having both the applied and theoretical backgrounds gives a wider perspective, in my opinion. </mutableString>
+I have a minor in economics, where much of the material actually serves as major assumptions in the world of finance. Having both the applied and theoretical backgrounds gives a wider perspective, in my opinion. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -371,11 +371,6 @@ I have a minor in economics, where much of the material actually serves as major
                             <constraint firstItem="LKp-Hb-SuW" firstAttribute="leading" secondItem="3YK-BQ-DJE" secondAttribute="leadingMargin" id="jB5-Xl-K8A"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="body" destination="znX-fY-afu" id="kPX-53-jVh"/>
-                        <outlet property="email" destination="xqg-mC-iCZ" id="1ym-E7-qdQ"/>
-                        <outlet property="subject" destination="3LY-n0-EQ3" id="oV1-Bd-S05"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GTn-vX-LiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -470,7 +465,7 @@ I have a minor in economics, where much of the material actually serves as major
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MsT-Xx-2l3">
                                 <rect key="frame" x="20" y="72" width="560" height="685"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Why did you choose business?
+                                <string key="text">Why did you choose business?
 Ever since I was in elementary school my parents managed a small gas station and convenience store and would always ask for advice on what snacks they should sell and how to arrange their store. I was always interested in providing this advice and became fascinated in discovering sales trends and products that end up selling well. Through this experience, I hoped to start my own business one day and saw an undergraduate business degree as a great start.
 
 Why this concentration?
@@ -487,7 +482,7 @@ I enjoy strength training because it requires a discipline that helps you in oth
 productive way to work towards achieving set goals.
 
 Why your minor and how will you relate the two skills?
-In addition to studying finance, I am also concentrating in Management Information Systems(MIS). I chose to study both finance and MIS because technology is becoming an increasingly larger part of all jobs in the economy. By learning about technology and how to manage it early on, I believe I am better preparing myself for the inevitable increase in the influence of technology in the workplace.</mutableString>
+In addition to studying finance, I am also concentrating in Management Information Systems(MIS). I chose to study both finance and MIS because technology is becoming an increasingly larger part of all jobs in the economy. By learning about technology and how to manage it early on, I believe I am better preparing myself for the inevitable increase in the influence of technology in the workplace.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -552,9 +547,6 @@ We often see that high school seniors simply decide to choose business because i
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLu-Mb-6iQ">
                                         <rect key="frame" x="248" y="143" width="105" height="30"/>
                                         <state key="normal" title="Email Us!"/>
-                                        <connections>
-                                            <segue destination="hMZ-c5-EY5" kind="show" id="7cW-FP-hMm"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -688,7 +680,7 @@ We often see that high school seniors simply decide to choose business because i
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="szv-5m-66z">
                                 <rect key="frame" x="20" y="72" width="560" height="518"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Why did you choose business?
+                                <string key="text">Why did you choose business?
 I initially chose business because I didn't really know what I wanted to study when it came time to apply for college. I picked business with the mindset of trying it out since it had a pivotal role in my family's standard of living. Fast forward one semester, I happened to be loving my business education and never looked back!
 
 Why did you select your concentrations?
@@ -701,7 +693,7 @@ Plans after graduation
 I still haven’t picked any one industry to work in. Instead, I am exploring the opportunities I might find in my network. I am looking to stay in the US after graduation though.
 
 What do you do for fun?
-I am quite involved on campus, between Rising Business Executives, an internship, TEDxBU, and a few other student organizations. Besides that, I love keeping up with the latest movies and video games.</mutableString>
+I am quite involved on campus, between Rising Business Executives, an internship, TEDxBU, and a few other student organizations. Besides that, I love keeping up with the latest movies and video games.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -806,7 +798,7 @@ I am quite involved on campus, between Rising Business Executives, an internship
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sxt-wi-BSX">
                                 <rect key="frame" x="10" y="109" width="560" height="735"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Why did you choose business?
+                                <string key="text">Why did you choose business?
 I chose business not knowing what it really was – it happened as a process of elimination. I discovered I didn’t want to study either engineering or pre-med – the respective fields of my parents – and also eliminated other areas such as teaching and computer science. I felt like the only option I was left with was business so I dived head first into it. I am lucky that I ended up enjoying business and continued to pursue the major. Many students may end up transferring out or into business not know what it was initially. This is one of many reasons why I decided to join RBE, to help students who aren’t sure what a business major really entails. 
 
 Why this concentration?
@@ -823,7 +815,7 @@ I really enjoy playing tennis with friends and family whenever I can – I’ve 
 
 Why your minor and how will you relate the two skills?
 I’m currently minoring in economics and I almost view my second concentration in MIS as a second minor as well. I chose economics because I felt like it was a more theoretical view of financial markets and would complement the more technical side of finance. Similarly, with the increasing use of technology in finance, I felt like MIS would allow me to get ahead of the trend. 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
