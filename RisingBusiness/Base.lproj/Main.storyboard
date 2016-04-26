@@ -681,7 +681,7 @@ We often see that high school seniors simply decide to choose business because i
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V7K-cL-JXx">
                                 <rect key="frame" x="20" y="72" width="560" height="601"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Entrepreneurship
+                                <string key="text">Entrepreneurship
 Entrepreneur: http://www.entrepreneur.com/
 MIT Entrepreneurship Resource Center: http://web.mit.edu/e-club/hadzima/
 Global Entrepreneurship Monitor: http://www.gemconsortium.org/
@@ -712,7 +712,7 @@ Financial Accounting Standards Board (FASB): http://www.fasb.org/
 American Institute of CPAs: http://www.aicpa.org/
 Institute of Management Accountants: http://www.imanet.org/
 Big Four Accounting Firms Summary: http://www.accountingverse.com/articles/big-4-accounting-firms.html
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
