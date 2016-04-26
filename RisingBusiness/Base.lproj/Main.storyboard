@@ -169,7 +169,7 @@
                                 <rect key="frame" x="238" y="285" width="125" height="30"/>
                                 <state key="normal" title="Q&amp;A With Melanie"/>
                                 <connections>
-                                    <segue destination="5ld-G7-TKg" kind="show" id="TsB-HM-7wU"/>
+                                    <segue destination="5ld-G7-TKg" kind="show" id="cOi-Zl-d7g"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -213,10 +213,10 @@
             </objects>
             <point key="canvasLocation" x="3569" y="3435"/>
         </scene>
-        <!--MelanieQA View Controller-->
+        <!--View Controller-->
         <scene sceneID="M4O-ys-Yaq">
             <objects>
-                <viewController id="5ld-G7-TKg" customClass="MelanieQ_AViewController" customModule="RisingBusiness" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5ld-G7-TKg" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pQU-l2-F0b"/>
                         <viewControllerLayoutGuide type="bottom" id="nMk-8S-TQ0"/>
