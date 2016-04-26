@@ -15,6 +15,7 @@
 		3B443CA31BE83FCB00BE8D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B443CA11BE83FCB00BE8D87 /* LaunchScreen.storyboard */; };
 		3B443CAE1BE83FCB00BE8D87 /* RisingBusinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B443CAD1BE83FCB00BE8D87 /* RisingBusinessTests.swift */; };
 		3B443CB91BE83FCB00BE8D87 /* RisingBusinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B443CB81BE83FCB00BE8D87 /* RisingBusinessUITests.swift */; };
+		3B8CD7541CCEE45D00EE1F9B /* EmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CD7531CCEE45D00EE1F9B /* EmailPage.swift */; };
 		48DDEF871C16635E008C04AA /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DDEF861C16635E008C04AA /* AboutUs.swift */; };
 		7DE3CE0C1CCEE74E00B8EB71 /* KazQ&AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3CE0B1CCEE74E00B8EB71 /* KazQ&AViewController.swift */; };
 		7DE3CE101CCEF20700B8EB71 /* MelanieQ&AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3CE0F1CCEF20700B8EB71 /* MelanieQ&AViewController.swift */; };
@@ -53,6 +54,7 @@
 		3B443CB41BE83FCB00BE8D87 /* RisingBusinessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RisingBusinessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B443CB81BE83FCB00BE8D87 /* RisingBusinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RisingBusinessUITests.swift; sourceTree = "<group>"; };
 		3B443CBA1BE83FCB00BE8D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B8CD7531CCEE45D00EE1F9B /* EmailPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailPage.swift; sourceTree = "<group>"; };
 		48DDEF861C16635E008C04AA /* AboutUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		7DE3CE0B1CCEE74E00B8EB71 /* KazQ&AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KazQ&AViewController.swift"; sourceTree = "<group>"; };
 		7DE3CE0F1CCEF20700B8EB71 /* MelanieQ&AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MelanieQ&AViewController.swift"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				3B443C951BE83FCB00BE8D87 /* AppDelegate.swift */,
 				3B443C971BE83FCB00BE8D87 /* ViewController.swift */,
 				3B443C991BE83FCB00BE8D87 /* Main.storyboard */,
+				3B8CD7531CCEE45D00EE1F9B /* EmailPage.swift */,
 				48DDEF861C16635E008C04AA /* AboutUs.swift */,
 				7DEB905E1CB33F1C00D76BA0 /* MeetTheTeam.swift */,
 				3B443C9F1BE83FCB00BE8D87 /* Assets.xcassets */,
@@ -208,6 +211,7 @@
 				TargetAttributes = {
 					3B443C911BE83FCB00BE8D87 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2BET78XFC8;
 					};
 					3B443CA81BE83FCB00BE8D87 = {
 						CreatedOnToolsVersion = 7.1;
@@ -274,6 +278,7 @@
 				7DE3CE101CCEF20700B8EB71 /* MelanieQ&AViewController.swift in Sources */,
 				7DE3CE0C1CCEE74E00B8EB71 /* KazQ&AViewController.swift in Sources */,
 				3B443C981BE83FCB00BE8D87 /* ViewController.swift in Sources */,
+				3B8CD7541CCEE45D00EE1F9B /* EmailPage.swift in Sources */,
 				3B443C9E1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodeld in Sources */,
 				7DEB905F1CB33F1C00D76BA0 /* MeetTheTeam.swift in Sources */,
 				3B443C961BE83FCB00BE8D87 /* AppDelegate.swift in Sources */,
@@ -417,10 +422,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RisingBusiness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusiness;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusiness2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -428,10 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RisingBusiness/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusiness;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GAI.RisingBusiness2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

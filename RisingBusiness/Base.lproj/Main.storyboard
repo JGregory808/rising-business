@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxF-KW-k9e">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yxF-KW-k9e">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -132,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kEF-Hk-nHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3023" y="2151"/>
+            <point key="canvasLocation" x="3090" y="2137"/>
         </scene>
         <!--Melanie Ramirez-->
         <scene sceneID="RiC-VQ-abp">
@@ -529,10 +529,10 @@ In addition to studying finance, I am also concentrating in Management Informati
                         <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnf-vq-HXu">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnf-vq-HXu">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-qZ-K2G">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jh6-qZ-K2G">
                                         <rect key="frame" x="139" y="243" width="322" height="515"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <string key="text">Rising Business Executives Inc. (RBE) was founded with the mission to assist high school students in making the right decision when deciding to pursue further education in the field of business. While a business degree has the ability to be applied across multiple different fields – ranging from Wall Street to corporate to even starting your own small business – sometimes the plethora of opportunities in business can complicate decisions. 
@@ -544,28 +544,17 @@ We often see that high school seniors simply decide to choose business because i
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLu-Mb-6iQ">
-                                        <rect key="frame" x="248" y="79" width="105" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLu-Mb-6iQ">
+                                        <rect key="frame" x="248" y="143" width="105" height="30"/>
                                         <state key="normal" title="Email Us!"/>
                                         <connections>
-                                            <action selector="EmailUs:" destination="P5D-nh-0rW" eventType="touchUpInside" id="k0Q-Ic-tQm"/>
+                                            <segue destination="hMZ-c5-EY5" kind="show" id="7cW-FP-hMm"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="jh6-qZ-K2G" firstAttribute="centerY" secondItem="cnf-vq-HXu" secondAttribute="centerY" id="K72-sD-CKu"/>
-                                    <constraint firstItem="cLu-Mb-6iQ" firstAttribute="centerX" secondItem="cnf-vq-HXu" secondAttribute="centerX" id="fcv-Ly-G3e"/>
-                                    <constraint firstItem="jh6-qZ-K2G" firstAttribute="centerX" secondItem="cnf-vq-HXu" secondAttribute="centerX" id="iCH-db-A1c"/>
-                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="cnf-vq-HXu" firstAttribute="height" secondItem="OdC-KF-zLw" secondAttribute="height" id="cV0-cJ-HEl"/>
-                            <constraint firstItem="cnf-vq-HXu" firstAttribute="centerY" secondItem="OdC-KF-zLw" secondAttribute="centerY" id="hCg-Su-Cjd"/>
-                            <constraint firstItem="cnf-vq-HXu" firstAttribute="width" secondItem="OdC-KF-zLw" secondAttribute="width" id="oPt-hL-feq"/>
-                            <constraint firstItem="cnf-vq-HXu" firstAttribute="centerX" secondItem="OdC-KF-zLw" secondAttribute="centerX" id="pFw-ZB-N85"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="About Us" selectedImage="About Us" id="Efd-fH-bxK"/>
                     <navigationItem key="navigationItem" title="About Us" id="3PC-4P-BY1"/>
@@ -577,7 +566,7 @@ We often see that high school seniors simply decide to choose business because i
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5kl-2E-kOR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2068" y="731"/>
+            <point key="canvasLocation" x="2092" y="355"/>
         </scene>
         <!--References-->
         <scene sceneID="MGm-nV-mrJ">
