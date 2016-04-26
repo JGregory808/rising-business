@@ -371,6 +371,11 @@ I have a minor in economics, where much of the material actually serves as major
                             <constraint firstItem="LKp-Hb-SuW" firstAttribute="leading" secondItem="3YK-BQ-DJE" secondAttribute="leadingMargin" id="jB5-Xl-K8A"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="body" destination="znX-fY-afu" id="kPX-53-jVh"/>
+                        <outlet property="email" destination="xqg-mC-iCZ" id="1ym-E7-qdQ"/>
+                        <outlet property="subject" destination="3LY-n0-EQ3" id="oV1-Bd-S05"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GTn-vX-LiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -801,7 +806,24 @@ I am quite involved on campus, between Rising Business Executives, an internship
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sxt-wi-BSX">
                                 <rect key="frame" x="10" y="109" width="560" height="735"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Why did you choose business?I chose business not knowing what it really was – it happened as a process of elimination. I discovered I didn’t want to study either engineering or pre-med – the respective fields of my parents – and also eliminated other areas such as teaching and computer science. I felt like the only option I was left with was business so I dived head first into it. I am lucky that I ended up enjoying business and continued to pursue the major. Many students may end up transferring out or into business not know what it was initially. This is one of many reasons why I decided to join RBE, to help students who aren’t sure what a business major really entails. Why this concentration?I concentrated in finance and management information systems (MIS) because I really enjoy working with numbers and technology. Finance to me intrigues me as it’s part of our daily lives in many shapes and forms. It can help our own personal finances and make the global economy run. MIS was more of a secondary concentration in my eyes. I noticed trends of technology entering more and more into the financial industry and thought it would be good to have a MIS concentration complement my finance concentration. Pros and cons of your concentrationI think finance is a well established and reputable concentration that is broad enough to allow you many job opportunities after graduation, but narrow enough to give you a honed skill set. A down-side may be the sheer number of students who study finance across the country. It becomes hard to differentiate yourself unless you pair finance with a unique combination of other majors/minors. Plans after graduationCurrently, I have a summer internship lined up with Goldman Sachs in their Private Wealth Management Division. Hopefully, after graduation I will be able to continue working in that area. What do you do for fun?I really enjoy playing tennis with friends and family whenever I can – I’ve been playing since I was 11. Otherwise, I also play the piano and enjoy hanging out with friends and exploring the city that we’re in. Why your minor and how will you relate the two skills?I’m currently minoring in economics and I almost view my second concentration in MIS as a second minor as well. I chose economics because I felt like it was a more theoretical view of financial markets and would complement the more technical side of finance. Similarly, with the increasing use of technology in finance, I felt like MIS would allow me to get ahead of the trend. </mutableString>
+                                <mutableString key="text">Why did you choose business?
+I chose business not knowing what it really was – it happened as a process of elimination. I discovered I didn’t want to study either engineering or pre-med – the respective fields of my parents – and also eliminated other areas such as teaching and computer science. I felt like the only option I was left with was business so I dived head first into it. I am lucky that I ended up enjoying business and continued to pursue the major. Many students may end up transferring out or into business not know what it was initially. This is one of many reasons why I decided to join RBE, to help students who aren’t sure what a business major really entails. 
+
+Why this concentration?
+I concentrated in finance and management information systems (MIS) because I really enjoy working with numbers and technology. Finance to me intrigues me as it’s part of our daily lives in many shapes and forms. It can help our own personal finances and make the global economy run. MIS was more of a secondary concentration in my eyes. I noticed trends of technology entering more and more into the financial industry and thought it would be good to have a MIS concentration complement my finance concentration. 
+
+Pros and cons of your concentration
+I think finance is a well established and reputable concentration that is broad enough to allow you many job opportunities after graduation, but narrow enough to give you a honed skill set. A down-side may be the sheer number of students who study finance across the country. It becomes hard to differentiate yourself unless you pair finance with a unique combination of other majors/minors. 
+
+Plans after graduation
+Currently, I have a summer internship lined up with Goldman Sachs in their Private Wealth Management Division. Hopefully, after graduation I will be able to continue working in that area. 
+
+What do you do for fun?
+I really enjoy playing tennis with friends and family whenever I can – I’ve been playing since I was 11. Otherwise, I also play the piano and enjoy hanging out with friends and exploring the city that we’re in. 
+
+Why your minor and how will you relate the two skills?
+I’m currently minoring in economics and I almost view my second concentration in MIS as a second minor as well. I chose economics because I felt like it was a more theoretical view of financial markets and would complement the more technical side of finance. Similarly, with the increasing use of technology in finance, I felt like MIS would allow me to get ahead of the trend. 
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
