@@ -547,6 +547,9 @@ We often see that high school seniors simply decide to choose business because i
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLu-Mb-6iQ">
                                         <rect key="frame" x="248" y="143" width="105" height="30"/>
                                         <state key="normal" title="Email Us!"/>
+                                        <connections>
+                                            <segue destination="Zjt-Ur-8IM" kind="show" id="ANT-Yv-GrJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -574,7 +577,7 @@ We often see that high school seniors simply decide to choose business because i
                         <viewControllerLayoutGuide type="bottom" id="AFv-tL-6ol"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Yxq-Yd-MPi">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFY-Zu-FLh">
