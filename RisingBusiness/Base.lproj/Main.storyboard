@@ -565,6 +565,92 @@ We often see that high school seniors simply decide to choose business because i
             </objects>
             <point key="canvasLocation" x="2092" y="355"/>
         </scene>
+        <!--Email Page-->
+        <scene sceneID="6t5-uK-E61">
+            <objects>
+                <viewController id="Zjt-Ur-8IM" customClass="EmailPage" customModule="RisingBusiness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c9L-LY-xQ6"/>
+                        <viewControllerLayoutGuide type="bottom" id="AFv-tL-6ol"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yxq-Yd-MPi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Your Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFY-Zu-FLh">
+                                <rect key="frame" x="24" y="76" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Subject:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLh-zV-zqa">
+                                <rect key="frame" x="46" y="114" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Message:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gB7-qd-l39">
+                                <rect key="frame" x="35" y="148" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="691-3i-8JK">
+                                <rect key="frame" x="126" y="72" width="454" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RVW-ch-yG3">
+                                <rect key="frame" x="126" y="110" width="454" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cqE-Kl-mO4">
+                                <rect key="frame" x="126" y="148" width="454" height="206"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kue-1q-5ad">
+                                <rect key="frame" x="262" y="362" width="76" height="30"/>
+                                <state key="normal" title="Send Email"/>
+                                <connections>
+                                    <action selector="sendMail:" destination="Zjt-Ur-8IM" eventType="touchUpInside" id="KBb-pd-oyX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RVW-ch-yG3" firstAttribute="leading" secondItem="cqE-Kl-mO4" secondAttribute="leading" id="0dr-5C-rHR"/>
+                            <constraint firstItem="691-3i-8JK" firstAttribute="leading" secondItem="mFY-Zu-FLh" secondAttribute="trailing" constant="17" id="3RX-oS-8Sk"/>
+                            <constraint firstItem="mFY-Zu-FLh" firstAttribute="centerY" secondItem="691-3i-8JK" secondAttribute="centerY" id="4c1-oL-tya"/>
+                            <constraint firstItem="LLh-zV-zqa" firstAttribute="centerY" secondItem="RVW-ch-yG3" secondAttribute="centerY" id="9js-lY-X3u"/>
+                            <constraint firstItem="Kue-1q-5ad" firstAttribute="centerX" secondItem="Yxq-Yd-MPi" secondAttribute="centerX" id="BTx-CT-7s6"/>
+                            <constraint firstItem="691-3i-8JK" firstAttribute="leading" secondItem="RVW-ch-yG3" secondAttribute="leading" id="BmI-zl-cM6"/>
+                            <constraint firstItem="LLh-zV-zqa" firstAttribute="trailing" secondItem="gB7-qd-l39" secondAttribute="trailing" id="FZE-OM-I3V"/>
+                            <constraint firstItem="691-3i-8JK" firstAttribute="trailing" secondItem="Yxq-Yd-MPi" secondAttribute="trailingMargin" id="Tjb-c0-tfg"/>
+                            <constraint firstItem="RVW-ch-yG3" firstAttribute="top" secondItem="691-3i-8JK" secondAttribute="bottom" constant="8" symbolic="YES" id="VYH-5L-Y6b"/>
+                            <constraint firstItem="Kue-1q-5ad" firstAttribute="top" secondItem="cqE-Kl-mO4" secondAttribute="bottom" constant="8" symbolic="YES" id="W6Y-xU-cZQ"/>
+                            <constraint firstItem="691-3i-8JK" firstAttribute="trailing" secondItem="RVW-ch-yG3" secondAttribute="trailing" id="XIe-0L-UDf"/>
+                            <constraint firstItem="mFY-Zu-FLh" firstAttribute="leading" secondItem="Yxq-Yd-MPi" secondAttribute="leadingMargin" id="fr7-79-akQ"/>
+                            <constraint firstItem="RVW-ch-yG3" firstAttribute="trailing" secondItem="cqE-Kl-mO4" secondAttribute="trailing" id="hfb-ir-Svs"/>
+                            <constraint firstItem="cqE-Kl-mO4" firstAttribute="top" secondItem="RVW-ch-yG3" secondAttribute="bottom" constant="8" symbolic="YES" id="meO-Zl-NuZ"/>
+                            <constraint firstItem="mFY-Zu-FLh" firstAttribute="trailing" secondItem="LLh-zV-zqa" secondAttribute="trailing" id="oPN-zR-Kp8"/>
+                            <constraint firstItem="691-3i-8JK" firstAttribute="top" secondItem="c9L-LY-xQ6" secondAttribute="bottom" constant="8" symbolic="YES" id="oZQ-ig-Rj4"/>
+                            <constraint firstItem="gB7-qd-l39" firstAttribute="top" secondItem="cqE-Kl-mO4" secondAttribute="top" id="wg9-Yn-4UV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="body" destination="cqE-Kl-mO4" id="iBN-Zy-wua"/>
+                        <outlet property="email" destination="691-3i-8JK" id="ANz-iy-h2n"/>
+                        <outlet property="subject" destination="RVW-ch-yG3" id="2rd-XH-l1G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e5e-1L-EWC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2830" y="355"/>
+        </scene>
         <!--References-->
         <scene sceneID="MGm-nV-mrJ">
             <objects>
