@@ -32,15 +32,27 @@
                         <viewControllerLayoutGuide type="bottom" id="5hG-zR-O5R"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="SwY-P2-W2N">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Twitter Pic" translatesAutoresizingMaskIntoConstraints="NO" id="Op1-jU-4k1">
+                                <rect key="frame" x="0.0" y="64" width="370" height="603"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Op1-jU-4k1" firstAttribute="leading" secondItem="SwY-P2-W2N" secondAttribute="leading" id="7AZ-N1-7Ga"/>
+                            <constraint firstAttribute="bottom" secondItem="Op1-jU-4k1" secondAttribute="bottom" id="Hev-aT-6KG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Op1-jU-4k1" secondAttribute="trailing" constant="-11" id="KpU-ET-ZiB"/>
+                            <constraint firstItem="Op1-jU-4k1" firstAttribute="top" secondItem="QEZ-Mb-CCF" secondAttribute="bottom" id="qLP-6H-Ukc"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="NewsFeed" id="Gwp-0E-2VR"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SdD-Zt-UYL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1158" y="2023"/>
+            <point key="canvasLocation" x="1157.5" y="2022.5"/>
         </scene>
         <!--Meet The Team-->
         <scene sceneID="dCz-o5-Xwc">
@@ -952,5 +964,6 @@ I’m currently minoring in economics and I almost view my second concentration 
         <image name="Melanie Ramirez" width="253" height="253"/>
         <image name="NewsFeed" width="30" height="30"/>
         <image name="References" width="45" height="45"/>
+        <image name="Twitter Pic" width="640" height="1136"/>
     </resources>
 </document>
