@@ -146,27 +146,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BMW-b3-aud">
-                                <rect key="frame" x="71" y="72" width="459" height="184"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BMW-b3-aud">
+                                <rect key="frame" x="71" y="72" width="459" height="164"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Melanie Ramirez is a Sophomore in the Questrom School of Business, concentrating in Marketing and Organizational Behavior. She is pursuing a minor in Education within the School of Education. She grew up in Queens, New York.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJQ-C7-Ky1">
+                                <rect key="frame" x="238" y="285" width="125" height="30"/>
+                                <state key="normal" title="Q&amp;A With Melanie"/>
+                                <connections>
+                                    <segue destination="5ld-G7-TKg" kind="show" id="TsB-HM-7wU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="BMW-b3-aud" firstAttribute="centerY" secondItem="B9D-L9-QZf" secondAttribute="centerY" id="0kv-i3-ts4"/>
                             <constraint firstItem="BMW-b3-aud" firstAttribute="centerX" secondItem="B9D-L9-QZf" secondAttribute="centerX" id="8Qz-41-MNv"/>
+                            <constraint firstItem="kJQ-C7-Ky1" firstAttribute="centerX" secondItem="B9D-L9-QZf" secondAttribute="centerX" id="Bh5-om-bAb"/>
+                            <constraint firstItem="kJQ-C7-Ky1" firstAttribute="top" secondItem="BMW-b3-aud" secondAttribute="bottom" constant="49" id="ENz-H0-taV"/>
+                            <constraint firstItem="kJQ-C7-Ky1" firstAttribute="centerX" secondItem="BMW-b3-aud" secondAttribute="centerX" id="EtI-Gd-YxG"/>
+                            <constraint firstItem="kJQ-C7-Ky1" firstAttribute="centerY" secondItem="B9D-L9-QZf" secondAttribute="centerY" id="Ntm-Wj-hYO"/>
                             <constraint firstItem="WEc-BN-Mf4" firstAttribute="top" secondItem="BMW-b3-aud" secondAttribute="bottom" constant="280" id="SA2-oo-33i"/>
+                            <constraint firstItem="BMW-b3-aud" firstAttribute="leading" secondItem="B9D-L9-QZf" secondAttribute="leadingMargin" constant="51" id="T8u-0v-aE7"/>
                             <constraint firstItem="BMW-b3-aud" firstAttribute="top" secondItem="r8g-7h-XiU" secondAttribute="bottom" constant="23" id="VOV-yS-9Zl"/>
+                            <constraint firstItem="BMW-b3-aud" firstAttribute="centerX" secondItem="B9D-L9-QZf" secondAttribute="centerX" id="Wrf-bl-RBk"/>
+                            <constraint firstItem="kJQ-C7-Ky1" firstAttribute="centerY" secondItem="B9D-L9-QZf" secondAttribute="centerY" id="dS8-HY-yc9"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BMW-b3-aud" secondAttribute="trailing" constant="80" id="hF0-1Y-BNw"/>
                             <constraint firstItem="BMW-b3-aud" firstAttribute="leading" secondItem="B9D-L9-QZf" secondAttribute="leadingMargin" constant="21" id="hYr-Lf-VCo"/>
+                            <constraint firstItem="kJQ-C7-Ky1" firstAttribute="top" secondItem="BMW-b3-aud" secondAttribute="bottom" constant="49" id="kuH-Rp-idA"/>
+                            <constraint firstItem="BMW-b3-aud" firstAttribute="centerX" secondItem="kJQ-C7-Ky1" secondAttribute="centerX" id="mkM-hv-9m6"/>
+                            <constraint firstItem="BMW-b3-aud" firstAttribute="top" secondItem="r8g-7h-XiU" secondAttribute="bottom" constant="8" symbolic="YES" id="ydE-AL-BTh"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="0kv-i3-ts4"/>
                                 <exclude reference="8Qz-41-MNv"/>
+                                <exclude reference="VOV-yS-9Zl"/>
+                                <exclude reference="hF0-1Y-BNw"/>
+                                <exclude reference="hYr-Lf-VCo"/>
+                                <exclude reference="mkM-hv-9m6"/>
+                                <exclude reference="Bh5-om-bAb"/>
+                                <exclude reference="ENz-H0-taV"/>
+                                <exclude reference="Ntm-Wj-hYO"/>
+                                <exclude reference="SA2-oo-33i"/>
                             </mask>
                         </variation>
                     </view>
@@ -175,6 +200,68 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m32-cZ-Z8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3569" y="3435"/>
+        </scene>
+        <!--MelanieQA View Controller-->
+        <scene sceneID="M4O-ys-Yaq">
+            <objects>
+                <viewController id="5ld-G7-TKg" customClass="MelanieQ_AViewController" customModule="RisingBusiness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pQU-l2-F0b"/>
+                        <viewControllerLayoutGuide type="bottom" id="nMk-8S-TQ0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AQ1-mf-Fl5">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lfT-Bd-x7H">
+                                <rect key="frame" x="20" y="72" width="560" height="752"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Why did you choose business?
+
+Growing up I was able to watch my father build his business from the ground up. I love interacting with people, creating something new, and watching different components fall into place which is what I found so attractive about business school.
+
+Why this concentration?
+
+I am currently double concentrating in marketing and strategy. I’ve always enjoyed marketing because it’s a good mix of working with others, creativity, and numbers. I am particularly interested in business development and these two concentrations work really well together for that.
+
+Pros and cons of your concentration
+
+I think there is a lot of freedom in marketing and strategy which is what I enjoy about them. The only con I think of is that with these two concentrations it may take a while to see the work that you’ve done come to fruition and there is a lot of trial and error with both.
+
+Plans after graduation.
+
+I really hope to learn about education systems in other countries through first hand experiences, so I have a lot of traveling in mind. Ultimately, I would love to start my own nonprofit or even start my own charter school way down the line.
+
+
+
+What do you do for fun?
+
+I love lifting at the gym. It’s very empowering and it’s a new hobby of mine so I’ve loved learning something new every time I lift.
+
+
+
+Why your minor and how will you relate the two skills?
+
+I am currently an education minor. Education is something I really care about because it has the power to make incredible change in the world. I always wanted to be a teacher growing up, but I quickly realized that it wasn’t my calling. Despite this I never lost my passion for it. I’ve loved learning about education policy and all of the behind the scenes of schooling. There are so many business concepts behind education and schools run very similarly to a business. I hope to be working in the nonprofit sector or on the administrative side of education.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lfT-Bd-x7H" firstAttribute="trailing" secondItem="AQ1-mf-Fl5" secondAttribute="trailingMargin" id="48V-Gu-EAz"/>
+                            <constraint firstItem="lfT-Bd-x7H" firstAttribute="leading" secondItem="AQ1-mf-Fl5" secondAttribute="leadingMargin" id="JSn-F4-VXW"/>
+                            <constraint firstItem="nMk-8S-TQ0" firstAttribute="top" secondItem="lfT-Bd-x7H" secondAttribute="bottom" constant="8" symbolic="YES" id="VOd-rE-NKY"/>
+                            <constraint firstItem="lfT-Bd-x7H" firstAttribute="top" secondItem="pQU-l2-F0b" secondAttribute="bottom" constant="8" symbolic="YES" id="WWR-cs-aLN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ScrollView" destination="lfT-Bd-x7H" id="L7L-tE-qdc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RSP-MJ-HsK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4208" y="3786"/>
         </scene>
         <!--Chris McNew-->
         <scene sceneID="jgH-72-wGw">
@@ -188,17 +275,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aya-iD-VH0">
-                                <rect key="frame" x="20" y="57" width="560" height="339"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aya-iD-VH0">
+                                <rect key="frame" x="20" y="105" width="560" height="339"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Chris McNew is a Senior in the Questrom School of Business Honors Program. He is pursuing a concentration in finance with a minor in Economics at the College of Arts and Sciences. At BU, Chris serves on the executive board of the Finance &amp; Investment Club and is also a finance teaching assistant. Chris enjoys hiking, drawing, and running in his downtime.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQz-UU-8ae">
+                                <rect key="frame" x="340" y="452" width="126" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="126" id="5It-62-Ase"/>
+                                </constraints>
+                                <state key="normal" title="Q&amp;A With Chris"/>
+                                <connections>
+                                    <segue destination="7gf-JO-UyC" kind="show" id="l3r-Xo-PCw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aya-iD-VH0" firstAttribute="centerX" secondItem="wtL-9c-uFg" secondAttribute="centerX" id="0Lc-z1-CiL"/>
+                            <constraint firstItem="RQz-UU-8ae" firstAttribute="centerX" secondItem="wtL-9c-uFg" secondAttribute="centerX" id="LUl-gF-4Fb"/>
+                            <constraint firstItem="RQz-UU-8ae" firstAttribute="centerY" secondItem="wtL-9c-uFg" secondAttribute="centerY" id="ZvS-PN-2Vg"/>
                             <constraint firstAttribute="leadingMargin" secondItem="aya-iD-VH0" secondAttribute="leading" id="f7P-PY-F8F"/>
                             <constraint firstItem="aya-iD-VH0" firstAttribute="top" secondItem="wtL-9c-uFg" secondAttribute="topMargin" constant="8" id="h85-MQ-PX4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aya-iD-VH0" secondAttribute="trailing" id="jWq-h9-IXM"/>
@@ -220,6 +319,63 @@
             </objects>
             <point key="canvasLocation" x="3900" y="2127"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="dD8-0p-uVj">
+            <objects>
+                <viewController id="7gf-JO-UyC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wR0-JS-ViJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="r2Y-JF-arF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3YK-BQ-DJE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LKp-Hb-SuW">
+                                <rect key="frame" x="20" y="72" width="560" height="785"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Why did you choose business?
+
+I wanted exposure to something new and dynamic. I was immersed in theory and abstract ideas throughout high school, and while I enjoyed what I learned, I knew I wanted to be involved in something applied and connected to the real world. I also knew that business was becoming increasingly global, and I figured it would be the clearest path to a career that could take me around the world or even allow me to work in a foreign country.
+
+Why this concentration?
+
+Finance incorporates a few different elements that make it appealing. It's quantitative and analytical, and it's also impacted by any number of events around the world, including international relations, economic growth in China, and even the weather in some particular markets. It has so many working parts, and they change almost daily.  It's even beneficial on a personal level as it gets you into a mindset of how to find and make good investments.
+
+Pros and cons of your concentration
+
+One of the biggest pros to finance is that the skill set is applicable across many fields. Manufacturing firms need financial analysts to value projects and machinery, tech companies need people in corporate treasury departments to manage their cash reserves, and all companies need bankers to finance their businesses. 
+
+Cons relate to the nature of the work environment. It can be a high pressure environment, and hours can be long depending on the specific role you're working. While the work is interesting, it's also not something that everyone can do.
+
+Plans after graduation
+
+I'll be traveling around Australia for a couple weeks after commencement! I also plan to spend a little time back home in California before moving to New York and starting my job with an investment bank in mid-July.
+
+What do you do for fun?
+
+In Boston, I really enjoy running on the Charles River Esplanade as well as spending time with friends, exploring the city together. Back in California, I'm really into hiking and longboarding. Wherever I am, I also enjoy photography. 
+
+Why your minor and how will you relate the two skills?
+
+I have a minor in economics, where much of the material actually serves as major assumptions in the world of finance. Having both the applied and theoretical backgrounds gives a wider perspective, in my opinion. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LKp-Hb-SuW" firstAttribute="trailing" secondItem="3YK-BQ-DJE" secondAttribute="trailingMargin" id="4GI-rS-dHV"/>
+                            <constraint firstItem="r2Y-JF-arF" firstAttribute="top" secondItem="LKp-Hb-SuW" secondAttribute="bottom" constant="8" symbolic="YES" id="ZI9-6P-h9q"/>
+                            <constraint firstItem="LKp-Hb-SuW" firstAttribute="top" secondItem="wR0-JS-ViJ" secondAttribute="bottom" constant="8" symbolic="YES" id="hei-Dt-DBy"/>
+                            <constraint firstItem="LKp-Hb-SuW" firstAttribute="leading" secondItem="3YK-BQ-DJE" secondAttribute="leadingMargin" id="jB5-Xl-K8A"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GTn-vX-LiI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4598" y="2094"/>
+        </scene>
         <!--David Elgawly-->
         <scene sceneID="OiG-vW-tO3">
             <objects>
@@ -233,26 +389,58 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hgO-xa-WcY">
-                                <rect key="frame" x="30" y="20" width="544" height="313"/>
+                                <rect key="frame" x="30" y="20" width="544" height="241"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">David Elgawly is a Junior in the Questrom School of Business and Kilachand Honors College. He is pursuing a dual concentration in Finance and Management Information Systems. At BU, David is a member of the Finance &amp; Investment Club and a Resident Assistant for the Business School Specialty Brownstone. In his spare time, David enjoys powerlifting and strength training. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRU-E1-hwO">
+                                <rect key="frame" x="222" y="313" width="157" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="157" id="avw-8d-lCY"/>
+                                    <constraint firstAttribute="width" constant="157" id="wjI-YI-P7Y"/>
+                                </constraints>
+                                <state key="normal" title="Q&amp;A With Daivd"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="wjI-YI-P7Y"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="0kg-bm-IPZ" kind="show" id="Nqf-E4-sXH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WY7-gn-j9o" firstAttribute="top" secondItem="hgO-xa-WcY" secondAttribute="bottom" constant="218" id="De6-O8-0Nf"/>
                             <constraint firstItem="hgO-xa-WcY" firstAttribute="top" secondItem="WrX-Wu-Cru" secondAttribute="bottom" constant="-44" id="Epd-Ox-hQL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hgO-xa-WcY" secondAttribute="trailing" constant="6" id="IT2-jT-htG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hgO-xa-WcY" secondAttribute="trailing" constant="6" id="Lms-vf-z7n"/>
+                            <constraint firstItem="SRU-E1-hwO" firstAttribute="top" secondItem="hgO-xa-WcY" secondAttribute="bottom" constant="52" id="Nr1-jb-80i"/>
+                            <constraint firstItem="WY7-gn-j9o" firstAttribute="top" secondItem="SRU-E1-hwO" secondAttribute="bottom" constant="208" id="Nw7-O4-VF3"/>
+                            <constraint firstItem="hgO-xa-WcY" firstAttribute="top" secondItem="Yk3-TM-70e" secondAttribute="top" constant="20" symbolic="YES" id="Rbr-4h-bXp"/>
                             <constraint firstItem="hgO-xa-WcY" firstAttribute="leading" secondItem="Yk3-TM-70e" secondAttribute="leadingMargin" constant="10" id="SsI-Mb-aKa"/>
+                            <constraint firstItem="hgO-xa-WcY" firstAttribute="leading" secondItem="Yk3-TM-70e" secondAttribute="leadingMargin" constant="10" id="aKA-fz-9OM"/>
                             <constraint firstItem="hgO-xa-WcY" firstAttribute="centerY" secondItem="Yk3-TM-70e" secondAttribute="centerY" id="aMz-Yx-k2o"/>
                             <constraint firstItem="hgO-xa-WcY" firstAttribute="centerX" secondItem="Yk3-TM-70e" secondAttribute="centerX" id="ev4-0j-1RT"/>
+                            <constraint firstItem="SRU-E1-hwO" firstAttribute="centerX" secondItem="Yk3-TM-70e" secondAttribute="centerX" id="tTN-y7-Jmh"/>
+                            <constraint firstItem="SRU-E1-hwO" firstAttribute="centerX" secondItem="Yk3-TM-70e" secondAttribute="centerX" id="udi-e8-ctv"/>
+                            <constraint firstItem="WY7-gn-j9o" firstAttribute="top" secondItem="SRU-E1-hwO" secondAttribute="bottom" constant="208" id="vqi-7e-dcU"/>
+                            <constraint firstItem="SRU-E1-hwO" firstAttribute="top" secondItem="hgO-xa-WcY" secondAttribute="bottom" constant="52" id="zom-SZ-ayz"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="Epd-Ox-hQL"/>
+                                <exclude reference="IT2-jT-htG"/>
+                                <exclude reference="SsI-Mb-aKa"/>
                                 <exclude reference="aMz-Yx-k2o"/>
                                 <exclude reference="ev4-0j-1RT"/>
+                                <exclude reference="Nr1-jb-80i"/>
+                                <exclude reference="udi-e8-ctv"/>
+                                <exclude reference="De6-O8-0Nf"/>
+                                <exclude reference="vqi-7e-dcU"/>
                             </mask>
                         </variation>
                     </view>
@@ -260,7 +448,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m4I-ia-vcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3934" y="1239"/>
+            <point key="canvasLocation" x="3286" y="1249"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="arE-uw-q04">
+            <objects>
+                <viewController id="0kg-bm-IPZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uZn-xI-gnw"/>
+                        <viewControllerLayoutGuide type="bottom" id="YTL-Rv-SRm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ubl-sM-mPj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MsT-Xx-2l3">
+                                <rect key="frame" x="20" y="72" width="560" height="685"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Why did you choose business?
+Ever since I was in elementary school my parents managed a small gas station and convenience store and would always ask for advice on what snacks they should sell and how to arrange their store. I was always interested in providing this advice and became fascinated in discovering sales trends and products that end up selling well. Through this experience, I hoped to start my own business one day and saw an undergraduate business degree as a great start.
+
+Why this concentration?
+After my first internship at a startup during the summer of my freshman year of college, I gained a lot of exposure to finance because the office was located in the financial district of New York City. I had to schedule a lot of meetings with small businesses in lower Manhattan for my internship, and during one of those meetings I discovered a small business owner who use to be a trader of Wall Street. He spoke very highly of his experiences and drove me to learn more about finance.
+
+Pros and cons of your concentration
+My favorite part of finance is that it is a living, breathing, constantly-changing field. It’s fascinating to watch markets react to global events, political news, macro-economic policy, or company-specific actions—it provides a medium to gauge how the collective public feels about some kind of new event. The thing I like least about finance is that ever since the Great Recession of 2008, the reputation of finance among the general public has worsened, when in fact finance is a necessary part of any economy and has the ability to do very much good for the world.
+
+Plans after graduation
+After graduating I hope to enter a financial services field such as Investment Banking, and much later down the line, to start my own business.
+
+What do you do for fun?
+I enjoy strength training because it requires a discipline that helps you in other aspects of life and is a 
+productive way to work towards achieving set goals.
+
+Why your minor and how will you relate the two skills?
+In addition to studying finance, I am also concentrating in Management Information Systems(MIS). I chose to study both finance and MIS because technology is becoming an increasingly larger part of all jobs in the economy. By learning about technology and how to manage it early on, I believe I am better preparing myself for the inevitable increase in the influence of technology in the workplace.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MsT-Xx-2l3" firstAttribute="top" secondItem="uZn-xI-gnw" secondAttribute="bottom" constant="8" symbolic="YES" id="Ven-Rf-3wZ"/>
+                            <constraint firstItem="MsT-Xx-2l3" firstAttribute="leading" secondItem="Ubl-sM-mPj" secondAttribute="leadingMargin" id="bb5-7r-CGC"/>
+                            <constraint firstItem="YTL-Rv-SRm" firstAttribute="top" secondItem="MsT-Xx-2l3" secondAttribute="bottom" constant="8" symbolic="YES" id="iYT-LU-AD5"/>
+                            <constraint firstItem="MsT-Xx-2l3" firstAttribute="trailing" secondItem="Ubl-sM-mPj" secondAttribute="trailingMargin" id="zjj-Fj-DQM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qUu-2K-4rP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3965" y="1044"/>
         </scene>
         <!--About Us-->
         <scene sceneID="hLh-Rc-o8W">
@@ -410,13 +648,93 @@ We often see that high school seniors simply decide to choose business because i
                     <view key="view" contentMode="scaleToFill" id="GVX-Z7-iAV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UdD-6K-hyq">
+                                <rect key="frame" x="20" y="77" width="560" height="339"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Kaz Baig is on track to graduate in May 2017 with concentrations in Entrepreneurship, Finance, and Management Information Systems. He is from Pakistan, and has had the fortune of moving internationally several times before coming to BU. He consistently strives to leverage this experience in various leadership roles in order to distinguish himself from his peers.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqh-xx-oZu">
+                                <rect key="frame" x="252" y="309" width="97" height="30"/>
+                                <state key="normal" title="Q&amp;A With Kaz"/>
+                                <connections>
+                                    <segue destination="s5Y-xO-Fo5" kind="show" id="nOT-Qe-gYa"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UdD-6K-hyq" firstAttribute="top" secondItem="uBv-8U-FY2" secondAttribute="bottom" constant="26" id="KWO-4u-Nws"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UdD-6K-hyq" secondAttribute="trailing" id="Spg-J8-GVv"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="UdD-6K-hyq" secondAttribute="leading" id="hJs-2Y-bzU"/>
+                            <constraint firstItem="mqh-xx-oZu" firstAttribute="centerX" secondItem="GVX-Z7-iAV" secondAttribute="centerX" id="wfA-TI-Nuu"/>
+                            <constraint firstItem="1My-qT-hnb" firstAttribute="top" secondItem="UdD-6K-hyq" secondAttribute="bottom" constant="122" id="zcY-EU-SD6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Kahizer Baig" id="jH6-3J-RKA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YF1-fj-hWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2294" y="2883"/>
+        </scene>
+        <!--KazQA View Controller-->
+        <scene sceneID="O6E-R9-a3q">
+            <objects>
+                <viewController id="s5Y-xO-Fo5" customClass="KazQ_AViewController" customModule="RisingBusiness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WaO-WN-RDI"/>
+                        <viewControllerLayoutGuide type="bottom" id="TVE-CZ-AqO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BrM-oQ-4CS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="szv-5m-66z">
+                                <rect key="frame" x="20" y="72" width="560" height="518"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Why did you choose business?
+I initially chose business because I didn't really know what I wanted to study when it came time to apply for college. I picked business with the mindset of trying it out since it had a pivotal role in my family's standard of living. Fast forward one semester, I happened to be loving my business education and never looked back!
+
+Why did you select your concentrations?
+I chose my concentrations because they all let me explore areas I am passionate about. I love technology, so I chose MIS. I am good with numbers, so I chose Finance. I am deeply fascinated by the world of entrepreneurship, so I chose to learn more about it as well. It was also a matter of trying out different other subjects, like Operations and Accounting, which weren’t really my thing.
+
+What do you like/dislike about your concentrations?
+On one hand, I really love how abstract and project-based entrepreneurship can be. On the other, this also means that the concentration will not necessarily translate into a job for me in the future; it is more of a course that will teach me soft skills I might apply in the future. My biggest gripes with Finance and MIS are that they can be quite dry depending on the topic and/or the professor. At the end of the day, if your professor cares, you end up caring too.
+
+Plans after graduation
+I still haven’t picked any one industry to work in. Instead, I am exploring the opportunities I might find in my network. I am looking to stay in the US after graduation though.
+
+What do you do for fun?
+I am quite involved on campus, between Rising Business Executives, an internship, TEDxBU, and a few other student organizations. Besides that, I love keeping up with the latest movies and video games.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="szv-5m-66z" secondAttribute="leading" id="0NS-i1-utz"/>
+                            <constraint firstItem="TVE-CZ-AqO" firstAttribute="top" secondItem="szv-5m-66z" secondAttribute="bottom" constant="-39" id="2OJ-7K-5eq"/>
+                            <constraint firstItem="szv-5m-66z" firstAttribute="centerY" secondItem="BrM-oQ-4CS" secondAttribute="centerY" id="8p4-45-OXz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="szv-5m-66z" secondAttribute="trailing" id="I9D-YD-B1r"/>
+                            <constraint firstItem="szv-5m-66z" firstAttribute="centerX" secondItem="BrM-oQ-4CS" secondAttribute="centerX" id="OD4-Gp-mdf"/>
+                            <constraint firstItem="szv-5m-66z" firstAttribute="top" secondItem="WaO-WN-RDI" secondAttribute="bottom" constant="8" id="eFD-vj-1P0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8p4-45-OXz"/>
+                                <exclude reference="OD4-Gp-mdf"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="Scroll" destination="szv-5m-66z" id="mkv-ar-RXX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sL2-Vu-JY3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2270" y="3734"/>
         </scene>
         <!--Brent Jiang-->
         <scene sceneID="kM2-ye-lzB">
@@ -430,26 +748,87 @@ We often see that high school seniors simply decide to choose business because i
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aak-b9-eFs">
-                                <rect key="frame" x="90" y="138" width="420" height="306"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aak-b9-eFs">
+                                <rect key="frame" x="20" y="72" width="560" height="210"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Brent Jiang is a Junior in the Questrom School of Business concentrating in Finance and Management Information Systems (MIS), and is also pursuing a minor in Economics in the College of Arts and Sciences. Brent currently has a prospective summer internships with Goldman Sachs in their Private Wealth Management division, and hopes to continue this career path after graduation. In his spare time, Brent enjoys playing tennis, playing the piano, and exploring Boston with his friends.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2eI-GN-GfO">
+                                <rect key="frame" x="246" y="321" width="109" height="30"/>
+                                <state key="normal" title="Q&amp;A With Brent"/>
+                                <connections>
+                                    <segue destination="UXN-PS-2Vh" kind="show" id="k2b-vU-3Yu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="pMm-gg-UKk" firstAttribute="top" secondItem="2eI-GN-GfO" secondAttribute="bottom" constant="200" id="3KX-ta-Ifk"/>
+                            <constraint firstItem="2eI-GN-GfO" firstAttribute="centerX" secondItem="aak-b9-eFs" secondAttribute="centerX" id="59n-es-AJV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aak-b9-eFs" secondAttribute="trailing" id="5pz-BH-0ms"/>
+                            <constraint firstItem="pMm-gg-UKk" firstAttribute="top" secondItem="aak-b9-eFs" secondAttribute="bottom" constant="269" id="IHu-Gn-T2a"/>
+                            <constraint firstItem="aak-b9-eFs" firstAttribute="top" secondItem="vuR-TB-Wuu" secondAttribute="bottom" constant="8" id="Lg7-Mc-vSo"/>
                             <constraint firstItem="aak-b9-eFs" firstAttribute="top" secondItem="vuR-TB-Wuu" secondAttribute="bottom" constant="74" id="UDO-Hc-bmd"/>
+                            <constraint firstItem="aak-b9-eFs" firstAttribute="leading" secondItem="76w-Gi-ZTj" secondAttribute="leadingMargin" id="Yhi-z0-BQS"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="aak-b9-eFs" secondAttribute="leading" id="dUA-sK-Lpu"/>
+                            <constraint firstItem="aak-b9-eFs" firstAttribute="trailing" secondItem="76w-Gi-ZTj" secondAttribute="trailingMargin" id="fYf-sH-07Z"/>
                             <constraint firstItem="aak-b9-eFs" firstAttribute="leading" secondItem="76w-Gi-ZTj" secondAttribute="leadingMargin" constant="70" id="g8a-Yg-sOP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aak-b9-eFs" secondAttribute="trailing" constant="70" id="itf-kE-Lyc"/>
+                            <constraint firstItem="2eI-GN-GfO" firstAttribute="top" secondItem="aak-b9-eFs" secondAttribute="bottom" constant="39" id="sP5-h3-ZGq"/>
+                            <constraint firstItem="aak-b9-eFs" firstAttribute="top" secondItem="vuR-TB-Wuu" secondAttribute="bottom" constant="8" symbolic="YES" id="uwL-lQ-wJS"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5pz-BH-0ms"/>
+                                <exclude reference="Lg7-Mc-vSo"/>
+                                <exclude reference="UDO-Hc-bmd"/>
+                                <exclude reference="dUA-sK-Lpu"/>
+                                <exclude reference="g8a-Yg-sOP"/>
+                                <exclude reference="itf-kE-Lyc"/>
+                                <exclude reference="IHu-Gn-T2a"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Brent Jiang" id="ylV-gM-y3I"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h8f-2h-3QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2956" y="3151"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Lu-E0-Cvt">
+            <objects>
+                <viewController id="UXN-PS-2Vh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eWf-ex-09c"/>
+                        <viewControllerLayoutGuide type="bottom" id="BVQ-Ec-VvL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dbR-pz-wFn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Sxt-wi-BSX">
+                                <rect key="frame" x="10" y="109" width="560" height="735"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Why did you choose business?I chose business not knowing what it really was – it happened as a process of elimination. I discovered I didn’t want to study either engineering or pre-med – the respective fields of my parents – and also eliminated other areas such as teaching and computer science. I felt like the only option I was left with was business so I dived head first into it. I am lucky that I ended up enjoying business and continued to pursue the major. Many students may end up transferring out or into business not know what it was initially. This is one of many reasons why I decided to join RBE, to help students who aren’t sure what a business major really entails. Why this concentration?I concentrated in finance and management information systems (MIS) because I really enjoy working with numbers and technology. Finance to me intrigues me as it’s part of our daily lives in many shapes and forms. It can help our own personal finances and make the global economy run. MIS was more of a secondary concentration in my eyes. I noticed trends of technology entering more and more into the financial industry and thought it would be good to have a MIS concentration complement my finance concentration. Pros and cons of your concentrationI think finance is a well established and reputable concentration that is broad enough to allow you many job opportunities after graduation, but narrow enough to give you a honed skill set. A down-side may be the sheer number of students who study finance across the country. It becomes hard to differentiate yourself unless you pair finance with a unique combination of other majors/minors. Plans after graduationCurrently, I have a summer internship lined up with Goldman Sachs in their Private Wealth Management Division. Hopefully, after graduation I will be able to continue working in that area. What do you do for fun?I really enjoy playing tennis with friends and family whenever I can – I’ve been playing since I was 11. Otherwise, I also play the piano and enjoy hanging out with friends and exploring the city that we’re in. Why your minor and how will you relate the two skills?I’m currently minoring in economics and I almost view my second concentration in MIS as a second minor as well. I chose economics because I felt like it was a more theoretical view of financial markets and would complement the more technical side of finance. Similarly, with the increasing use of technology in finance, I felt like MIS would allow me to get ahead of the trend. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sxt-wi-BSX" secondAttribute="trailing" constant="10" id="5zl-Ml-zww"/>
+                            <constraint firstAttribute="bottom" secondItem="Sxt-wi-BSX" secondAttribute="bottom" constant="20" symbolic="YES" id="i1C-mV-waI"/>
+                            <constraint firstItem="Sxt-wi-BSX" firstAttribute="leading" secondItem="dbR-pz-wFn" secondAttribute="leadingMargin" constant="-10" id="joz-Nf-U90"/>
+                            <constraint firstItem="Sxt-wi-BSX" firstAttribute="top" secondItem="eWf-ex-09c" secondAttribute="bottom" constant="45" id="qUz-Yo-zEK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezI-Qy-1Wz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2938" y="3961"/>
         </scene>
         <!--Reference-->
         <scene sceneID="GoP-Pr-CKC">
