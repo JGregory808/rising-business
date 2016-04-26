@@ -211,7 +211,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m32-cZ-Z8k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3569" y="3435"/>
+            <point key="canvasLocation" x="3612" y="3396"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="M4O-ys-Yaq">
@@ -964,6 +964,6 @@ I’m currently minoring in economics and I almost view my second concentration 
         <image name="Melanie" width="253" height="253"/>
         <image name="NewsFeed" width="30" height="30"/>
         <image name="References" width="45" height="45"/>
-        <image name="Twitter Pic" width="640" height="1136"/>
+        <image name="Twitter Pic" width="633" height="828"/>
     </resources>
 </document>
