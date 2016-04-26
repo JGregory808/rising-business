@@ -677,6 +677,46 @@ We often see that high school seniors simply decide to choose business because i
                     <view key="view" contentMode="scaleToFill" id="XVO-kR-8uU">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V7K-cL-JXx">
+                                <rect key="frame" x="20" y="72" width="560" height="601"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Entrepreneurship
+Entrepreneur: http://www.entrepreneur.com/
+MIT Entrepreneurship Resource Center: http://web.mit.edu/e-club/hadzima/
+Global Entrepreneurship Monitor: http://www.gemconsortium.org/
+
+Operations Management
+APICS Career Guide: http://www.apics.org/ebusiness/docs/default-source/cepd/operations-and-supply-chain-management-career-paths-and-patterns.pdf
+Careers in Supply Chain: http://www.careersinsupplychain.org/
+Bureau of Labor Statistics, Operations Overview: http://www.bls.gov/oes/current/oes111021.htm
+
+Information Systems
+TechCrunch: http://techcrunch.com/
+Techopedia: http://www.techopedia.com/
+ACM Computing Degrees &amp; Careers: http://computingcareers.acm.org/
+
+Finance
+Careers In Finance: http://www.careers-in-finance.com/
+Mergers &amp; Inquisitions: http://www.mergersandinquisitions.com/
+Investopedia: http://www.investopedia.com/ 
+Wall Street Oasis: http://www.wallstreetoasis.com/ 
+
+Marketing
+Careers In Marketing: http://www.careers-in-marketing.com/ 
+American Marketing Association: http://www.ama.org/ 
+Business Marketing Association: http://www.marketing.org/
+
+Accounting
+Financial Accounting Standards Board (FASB): http://www.fasb.org/
+American Institute of CPAs: http://www.aicpa.org/
+Institute of Management Accountants: http://www.imanet.org/
+Big Four Accounting Firms Summary: http://www.accountingverse.com/articles/big-4-accounting-firms.html
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.20746802228068428" green="0.33055074668985196" blue="0.56759244109947637" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
