@@ -678,6 +678,7 @@ We often see that high school seniors simply decide to choose business because i
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.20746802228068428" green="0.33055074668985196" blue="0.56759244109947637" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="References" id="eYK-Tl-DMJ"/>
                 </viewController>
