@@ -18,7 +18,6 @@
 		3B8CD7541CCEE45D00EE1F9B /* EmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8CD7531CCEE45D00EE1F9B /* EmailPage.swift */; };
 		48DDEF871C16635E008C04AA /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DDEF861C16635E008C04AA /* AboutUs.swift */; };
 		7DE3CE0C1CCEE74E00B8EB71 /* KazQ&AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3CE0B1CCEE74E00B8EB71 /* KazQ&AViewController.swift */; };
-		7DE3CE101CCEF20700B8EB71 /* MelanieQ&AViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3CE0F1CCEF20700B8EB71 /* MelanieQ&AViewController.swift */; };
 		7DEB905F1CB33F1C00D76BA0 /* MeetTheTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DEB905E1CB33F1C00D76BA0 /* MeetTheTeam.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +56,6 @@
 		3B8CD7531CCEE45D00EE1F9B /* EmailPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailPage.swift; sourceTree = "<group>"; };
 		48DDEF861C16635E008C04AA /* AboutUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		7DE3CE0B1CCEE74E00B8EB71 /* KazQ&AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KazQ&AViewController.swift"; sourceTree = "<group>"; };
-		7DE3CE0F1CCEF20700B8EB71 /* MelanieQ&AViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MelanieQ&AViewController.swift"; sourceTree = "<group>"; };
 		7DEB905E1CB33F1C00D76BA0 /* MeetTheTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetTheTeam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,7 +118,6 @@
 				3B443CA41BE83FCB00BE8D87 /* Info.plist */,
 				3B443C9C1BE83FCB00BE8D87 /* RisingBusiness.xcdatamodeld */,
 				7DE3CE0B1CCEE74E00B8EB71 /* KazQ&AViewController.swift */,
-				7DE3CE0F1CCEF20700B8EB71 /* MelanieQ&AViewController.swift */,
 			);
 			path = RisingBusiness;
 			sourceTree = "<group>";
@@ -275,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DE3CE101CCEF20700B8EB71 /* MelanieQ&AViewController.swift in Sources */,
 				7DE3CE0C1CCEE74E00B8EB71 /* KazQ&AViewController.swift in Sources */,
 				3B443C981BE83FCB00BE8D87 /* ViewController.swift in Sources */,
 				3B8CD7541CCEE45D00EE1F9B /* EmailPage.swift in Sources */,

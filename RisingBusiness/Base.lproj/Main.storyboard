@@ -96,7 +96,7 @@
                                             <segue destination="fds-0w-j4M" kind="show" id="trz-Fk-P9f"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Melanie Ramirez" translatesAutoresizingMaskIntoConstraints="NO" id="DoP-m0-66b">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Melanie" translatesAutoresizingMaskIntoConstraints="NO" id="DoP-m0-66b">
                                         <rect key="frame" x="20" y="276" width="102" height="97"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-GO-VZp">
@@ -961,7 +961,7 @@ I’m currently minoring in economics and I almost view my second concentration 
         <image name="David Elgawly" width="194" height="194"/>
         <image name="Kahizer Baig" width="301" height="301"/>
         <image name="Meet The Team" width="30" height="30"/>
-        <image name="Melanie Ramirez" width="253" height="253"/>
+        <image name="Melanie" width="253" height="253"/>
         <image name="NewsFeed" width="30" height="30"/>
         <image name="References" width="45" height="45"/>
         <image name="Twitter Pic" width="640" height="1136"/>
