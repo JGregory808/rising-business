@@ -20,6 +20,7 @@ class AboutUs: UIViewController, UITextFieldDelegate, MFMailComposeViewControlle
         //self.AboutUsTextBox.userInteractionEnabled = false
             
             ScrollView.contentSize.height = 1000
+            
     }
     
     override func didReceiveMemoryWarning() {
